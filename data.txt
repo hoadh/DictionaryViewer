@@ -1,0 +1,4479 @@
+Free On-line Dictionary of Computing
+
+	<introduction> FOLDOC is a searchable dictionary of acronyms,
+	jargon, programming languages, tools, architecture, operating
+	systems, networking, theory, conventions, standards,
+	mathematics, telecoms, electronics, institutions, companies,
+	projects, products, history, in fact anything to do with
+	computing.
+
+	Copyright 1993 by Denis Howe
+
+	Permission is granted to copy, distribute and/or modify this
+	document under the terms of the GNU Free Documentation
+	License, Version 1.1 or any later version published by the
+	Free Software Foundation; with no Invariant Sections, Front-
+	or Back-Cover Texts.  A copy of the license is included in the
+	section entitled "{GNU Free Documentation License}".
+
+	Please refer to the dictionary as "The Free On-line Dictionary
+	of Computing, http://foldoc.org/, Editor Denis Howe" or similar.
+
+	The dictionary has been growing since 1985 and now contains
+	over 13000 definitions totalling nearly five megabytes of
+	text.  Entries are cross-referenced to each other and to
+	related resources elsewhere on the net.
+
+	Where {LaTeX} commands for certain non-{ASCII} symbols are
+	mentioned, they are described in their own entries.  "\" is
+	also used to represent the Greek lower-case lambda used in
+	{lambda-calculus}.  Cross-references to other entries look
+	{like this}.  Note that not all cross-references actually lead
+	anywhere yet, but if you find one that leads to something
+	inappropriate, please {let me know (feedback.html)}.  Dates
+	after entries indicate when that entry was last updated.  They
+	do not imply that it was up-to-date at that time.
+
+	You can search the latest version of the dictionary on the
+	{WWW} at URL http://foldoc.org/.  If you find an entry that is
+	wrong or inadequate please let me know.
+
+	See {Pronunciation} for how to interpret the pronunciation
+	given for some entries.
+
+	(2006-10-16)
+
+Acknowledgements
+
+	<introduction> Many thanks to the hundreds of {contributors
+	(contributors.html)}, and especially to the {Guest Editors
+	(editors.html)}, mirror site maintainers and the maintainers
+	of the following resources from which some entries originate:
+
+	Mike Sendall's STING Software engineering glossary
+	<sendall@dxpt01.cern.ch>, 1993-10-13,
+
+	Bill Kinnersley's {Language List
+	(http://cuiwww.unige.ch/langlist)} v2.2, 1994-01-15,
+
+	Mark Hopkins' catalogue of Free Compilers and Interpreters
+	v6.4, 1994-02-28,
+
+	The on-line hacker {Jargon File} v3.0.0, 1993-07-27,
+
+	Internet Users' Glossary (RFC 1392, FYI 18), Jan 1993.
+
+	John Cross's computer glossary, 1994-11-01.
+
+	John Bayko's Great Microprocessors of the Past and Present,
+	v4.0.0, 1994-08-18.
+
+	{Electronic Commerce Dictionary}.
+
+	(1997-08-01)
+
+Missing definition
+
+	<introduction> First, this is an (English language)
+	_computing_ dictionary.  It includes lots of terms from
+	related fields such as mathematics and electronics, but if
+	you're looking for (or want to submit) words from other
+	subjects or general English words or other languages, try
+	{(http://wikipedia.org/)}, {(http://onelook.com/)},
+	{(http://yourdictionary.com/)} or
+	{(http://reference.allrefer.com/)}.
+
+	If you've already searched the dictionary for a computing term
+	and it's not here then please _don't tell me_.  There are, and
+	always will be, a great many missing terms, no dictionary is
+	ever complete.  I use my limited time to process the
+	corrections and definitions people have submitted and to add
+	the most frequently requested missing terms.
+
+	Try one of the sources mentioned above or
+	{(http://techweb.com/encyclopedia/)},
+	{(http://whatis.techtarget.com/)} or
+	{(http://google.com/)}.
+
+	See also the note on {bad cross-references (dangling.html)}.
+
+	What does ... mean?  How do I ...?  Where can I find ...?
+
+	I'm afraid I don't have time to answer personal requests for
+	definitions, help configure your PC, do your homework, or
+	explain what that Windoze error message means, etc. so please
+	_don't ask me_.
+
+	How do I submit a definition?
+
+	I'm afraid I can't accept any more new definitions at the moment, I
+	have a huge backlog awaiting processing.
+
+	(2006-07-27)
+
+!
+
+	{exclamation mark}
+
+"
+
+	{double quote}
+
+#
+
+	{hash}
+
+$
+
+	{dollar}
+
+$1
+
+	<programming> The first {positional parameter} in {shell}
+	programming and related languages.  Occurrences of $1 are
+	replaced by the first {actual argument} provided by the user
+	when the {shell script} is run.  $2 is replaced by the second
+	argument, and so on up to $9.
+
+	You may have arrived at this entry by following a {URL} like
+	"http://foldoc.org?$1", which is actually a {template} used to
+	generate pointers to FOLDOC definitions by replacing "$1" with
+	the term to be defined, e.g. in a {wiki} {interwiki map}.
+
+	(2006-09-10)
+
+%
+
+	{percent}
+
+,
+
+	{comma}
+
+0
+
+	{zero}
+
+0/1 knapsack problem
+
+	<application> The {knapsack problem} restricted so that the
+	number of each item is zero or one.
+
+	(1995-03-13)
+
+100BaseFX
+
+	<networking> {Fast Ethernet} over {optical fibre}.
+
+	(1998-03-23)
+
+100BaseT
+
+	<networking> Any of several {Fast Ethernet} 100 {MBps}
+	{CSMA/CD} standards for {twisted pair} cables, including:
+	100BaseTx (100 Mbps over two-pair {Cat5} or better cable),
+	100BaseT4 (100 Mbps over four-pair {Cat3} or better cable),
+	100BaseT2 (in committee; 100 Mbps over two-pair Cat3 or better
+	cable).  All are standards (or planned standards) under {IEEE}
+	{802.3}.
+
+	(1997-01-07)
+
+100BaseTX
+
+	<networking> The predominant form of {Fast Ethernet}.
+	100BaseTX runs over two pairs of wires in {category 5} cable.
+
+	(1998-06-30)
+
+100BaseVG
+
+	<networking> A 100 {MBps} {Ethernet} standard specified to run
+	over four pairs of {category 3} {UTP} wires (known as voice
+	grade, hence the "VG").  It is also called 100VG-AnyLAN
+	because it was defined to carry both {Ethernet} and {token
+	ring} {frame} types.
+
+	100BaseVG was originally proposed by {Hewlett-Packard},
+	ratified by the {ISO} in 1995 and practically extinct by 1998.
+
+	100BaseVG started in the IEEE 802.3u committee as {Fast
+	Ethernet}.  One faction wanted to keep {CSMA/CD} in order to
+	keep it pure Ethernet, even though the {collision domain}
+	problem limited the distances to one tenth that of {10baseT}.
+	Another faction wanted to change to a polling architecture
+	from the hub (they called it "demand priority") in order to
+	maintain the 10baseT distances, and also to make it a
+	{deterministic} {protocol}.  The CSMA/CD crowd said, "This is
+	802.3 -- the Ethernet committee.  If you guys want to make a
+	different protocol, form your own committee".  The IEEE 802.12
+	committee was thus formed and standardized 100BaseVG.  The
+	rest is history.
+
+	(1998-06-30)
+
+100VG-AnyLAN
+
+	{100BaseVG}
+
+10base2
+
+	<networking> (Or "cheapernet") The variant of {Ethernet} that
+	uses thin {coaxial} cable (RG-58 or similar), as opposed to
+	{10base5} cable.
+
+	The "10" means 10 {Mbps}, "base" means "baseband" as opposed
+	to {radio frequency} and "2" means a maximum single cable
+	length of 200m.
+
+	(1995-11-14)
+
+10base5
+
+	<networking> An {Ethernet} network cabling specification
+	operating at ten {Mbps}, "baseband" (as opposed to {radio
+	frequency}), and with a maximum single cable length of 500
+	metres.  This is normally carried on {RG8} cable.
+
+	Compare {10base2}, {10baseT}.
+
+	(2002-06-17)
+
+10baseT
+
+	<networking> A variant of {Ethernet} which allows stations to
+	be attached via {twisted pair} cable.
+
+	(1995-01-24)
+
+120 reset
+
+	<jargon> /wuhn-twen'tee ree'set/ (After 120 volts, US mains
+	voltage) To cycle power on a computer in order to reset or
+	unjam it.
+
+	Compare {Big Red Switch}, {power cycle}.
+
+	[{Jargon File}]
+
+	(1994-11-23)
+
+1-2-3
+
+	{Lotus 1-2-3}
+
+1394
+
+	{High Performance Serial Bus}
+
+1541
+
+	{Commodore 1541}
+
+1581
+
+	{Commodore 1581}
+
+16000
+
+	{National Semiconductor 16000}
+
+16450
+
+	<hardware> A {UART} with a one-byte {FIFO} buffer.  The 16450
+	is a higher speed, fixed version of the {8250}.  It was
+	superseded by the {16550}.
+
+	The 16450 was used for the {IBM PC AT} and {PS/2} but will not
+	work in a {IBM PC XT}.
+
+	(2004-03-21)
+
+16550
+
+	<hardware> A version of the {16450} {UART} with a 16-byte
+	{FIFO}.  Superseded by the 16550A.
+
+	This chip might not operate correctly with all software.
+
+	The 16C550 is a {CMOS} version.
+
+	(2004-03-24)
+
+16550A
+
+	<hardware> A version of the {16550} {UART}.  Superseded by the
+	{16650}.
+
+	(2003-07-05)
+
+16650
+
+	<hardware> A version of the {16550A} {UART} with a 32-byte
+	{FIFO}.  Superseded by the {16750C}.
+
+	(2003-07-05)
+
+16750C
+
+	<hardware> A {UART} with a 64-byte {FIFO}.
+
+	The 16C750 is a {CMOS} version.
+
+	[Is there a 16750 (with no "C" on the end)?]
+
+	(2004-03-24)
+
+16 bit
+
+	<architecture, programming> Using {words} containing sixteen
+	{bits}.  This adjective often refers to the number of bits
+	used internally by a computer's {CPU}.  E.g. "The {Intel 8086}
+	is a sixteen bit processor".  Its external {data bus} or
+	{address bus} may be narrower.  The term may also refer to the
+	size of an instruction in the computer's {instruction set} or
+	to any other item of data.
+
+	See also {16-bit application}.
+
+	(1996-05-13)
+
+16-bit application
+
+	<operating system> Software for {MS-DOS} or {Microsoft
+	Windows} which originally ran on the 16-bit {Intel 8088} and
+	{80286} {microprocessors}.  These used a {segmented address
+	space} to extend the range of addresses from what is possible
+	with just a 16-bit address.  Programs with more than 64
+	kilobytes of code or data therefore had to waste time
+	switching between {segments}.  Furthermore, programming with
+	segments is more involved than programming in a {flat address
+	space}, giving rise to {warts} like {memory models} in {C} and
+	{C++}.
+
+	Compare {32-bit application}.
+
+	(1996-04-06)
+
+16C550
+
+	{16550}
+
+16C750
+
+	{16750C}
+
+16C850
+
+	<hardware> A version of the {16450} {UART} in {CMOS} with
+	128-{byte} {FIFO}.
+
+	(2004-03-24)
+
+1802
+
+	<processor> An 8-bit {microprocessor} manufactured as CDP1802
+	by {HARRIS Semiconductor}.  It has been around for ten years
+	at least and is ideally suited for {embedded} applications.
+	Some of its features are: 8-bit parallel organisation with
+	bidirectional {data bus} and {multiplexed address bus}; static
+	design -- no minimum {clock rate}; bit-programmable output
+	port; four input pins which are directly tested by branch
+	instructions; flexible programmable I/O mode; single-phase
+	clock, with on-chip oscillator; 16 x 16 register matrix to
+	implement multiple {program counters}, pointers, or
+	{registers}
+
+	(1995-11-21)
+
+1NF
+
+	{database normalisation}
+
+1TBS
+
+	{indent style}
+
+1.TR.6
+
+	<networking, protocol> A {control channel protocol} for
+	{ISDN}.  It is a national {standard} in Germany but is being
+	replaced by {Euro-ISDN}.
+
+	(1995-03-27)
+
+2
+
+	<convention, character> In names of translation software,
+	infix 2 often represents the word "to" with the connotation
+	"translate to", as in {dvi2ps} ({DVI} to {PostScript}),
+	int2string (integer to string) and {texi2roff} ({Texinfo} to
+	[nt]{roff}).
+
+	[{Jargon File}]
+
+	(1995-01-25)
+
+20-GATE
+
+	<language> An algebraic language for the {G-20}, developed at
+	{Carnegie} around 1965.
+
+	(1995-02-27)
+
+2780
+
+	{Binary Synchronous Transmission}
+
+2B1D
+
+	{Basic Rate Interface}
+
+2B1Q
+
+	{two-binary, one-quaternary}
+
+2B+D
+
+	{Basic Rate Interface}
+
+2NF
+
+	{database normalisation}
+
+2.PAK
+
+	<language> An {artificial intelligence} language with
+	{coroutines}.
+
+	["The 2.PAK Language: Goals and Description", L.F. Melli, Proc
+	IJCAI 1975].
+
+	(1995-01-25)
+
+32000
+
+	{National Semiconductor 32000}
+
+3270
+
+	{IBM 3270}
+
+32-bit application
+
+	<architecture, operating system> {IBM PC} software that runs
+	in a 32-bit {flat address space}.
+
+	The term {32-bit application} came about because {MS-DOS} and
+	{Microsoft Windows} were originally written for the {Intel
+	8088} and {80286} {microprocessors}.  These are {16 bit}
+	microprocessors with a {segmented address space}.  Programs
+	with more than 64 kilobytes of code and/or data therefore had
+	to switch between {segments} quite frequently.  As this
+	operation is quite time consuming in comparison to other
+	machine operations, the application's performance may suffer.
+	Furthermore, programming with segments is more involved than
+	programming in a flat address space, giving rise to some
+	complications in programming languages like "{memory models}"
+	in {C} and {C++}.
+
+	The shift from 16-bit software to 32-bit software on {IBM PC}
+	{clones} became possible with the introduction of the {Intel
+	80386} microprocessor.  This microprocessor and its successors
+	support a segmented address space with 16-bit and 32 bit
+	segments (more precisely: segments with 16- or 32-bit address
+	offset) or a linear 32-bit address space.  For compatibility
+	reasons, however, much of the software is nevertheless written
+	in 16-bit models.
+
+	{Operating systems} like {Microsoft Windows} or {OS/2} provide
+	the possibility to run 16-bit (segmented) programs as well as
+	32-bit programs.  The former possibility exists for {backward
+	compatibility} and the latter is usually meant to be used for
+	new software development.
+
+	See also {Win32s}.
+
+	(1995-12-11)
+
+3780
+
+	{Binary Synchronous Transmission}
+
+386
+
+	{Intel 80386}
+
+386BSD
+
+	<operating system> (Or "jolix /joh'liks/) A {free software}
+	{port} originally derived from the generally available parts
+	of the "{Berkeley Net Release/2}" to the {Intel} {i386}
+	architecture by William Jolitz and friends.  The name Jolix is
+	used to differentiate it from {BSDI}'s port based on the same
+	source tape, which is called {BSD/386}.
+
+	Many new and innovative features were added to 386BSD
+	following its original release in June 1992.  An unofficial
+	{patchkit}, available from many {anonymous FTP} archives,
+	solves many of the problems associated with 386BSD Version
+	0.1.  In addition, many common Unix packages have been ported.
+
+	386BSD has been superseded by {FreeBSD}, {NetBSD} and {OpenBSD}.
+
+	{FAQ
+	(http://cis.ohio-state.edu/hypertext/faq/usenet/386bsd-faq/part1/faq.html)}.
+
+	[{Jargon File}]
+
+	(2006-06-08)
+
+386SPART.PAR
+
+	<operating system> (Or "{WIN386.SWP}") 386SPART.PAR is a
+	{hidden file} created by {Windows 3.1} for use as {virtual
+	memory} {swap file}.  It is generally found in the {root
+	directory}, however it may appear elsewhere (typically in the
+	WINDOWS directory).  Its size depends on how much virtual
+	memory you have set up under (Control Panel) Enhanced under
+	Virtual Memory.  If you move or delete this file Windows will
+	complain the next time you start it with a Swap File error.
+
+	{Windows 95} uses a similar file, except it is named
+	WIN386.SWP, and the controls for it are located under Control
+	Panel - System - Performance tab - Virtual Memory.
+
+	(1996-05-28)
+
+386SX
+
+	{Intel 80386SX}
+
+3Com Corporation
+
+	<company, networking> A manufacturer of {local area network}
+	equipment.
+
+	3Com was founded in 1979.  They acquired {BICC Data Networks}
+	in 1992, {Star-Tek} in 1993, {Synernetics} in 1993, {Centrum}
+	in 1994, {NiceCom} in 1994 {AccessWorks}, {Sonix
+	Communications}, {Primary Access} and {Chipcom} in 1995 and
+	{Axon} and {OnStream Networks} in 1996.  They merged with
+	{U.S. Robotics} in 1997.
+
+	{Home (http://3com.com/)}.
+
+	(1998-04-03)
+
+3DNow!
+
+	<architecture> A {floating point} {SIMD} extention from {AMD}.
+
+	[Extension of what?  To do what?]
+
+	(2001-12-23)
+
+3DNow! Professional
+
+	<architecture> A {floating point} {SIMD} extention from {AMD},
+	compatible with {Intel}'s {SSE}, introduced with the
+	{Athlon}-4.
+
+	[Relationship to {3DNow!}?]
+
+	(2001-12-23)
+
+3DO
+
+	<company, games, standard> A set of specifications created and
+	owned by the 3DO company, which is a partnership of seven
+	different companies.  These specs are the blueprint for making
+	a 3DO Interactive Multiplayer and are licensed to hardware and
+	software producers.
+
+	A 3DO system has an {ARM60} 32-bit {RISC} {CPU} and a graphics
+	engine based around two custom designed graphics and animation
+	processors.  It has 2 Megabytes of {DRAM}, 1 Megabyte of
+	{VRAM}, and a double speed {CD-ROM} drive for main storage.
+
+	The {Panasonic} 3DO system can run 3DO Interactive software,
+	play audio CDs (including support for CD+G), view {Photo-CDs},
+	and will eventually be able to play {Video CDs} with a special
+	add-on {MPEG}1 {full-motion video} cartridge.  Up to 8
+	{controllers} can be {daisy-chain}ed on the system at once.  A
+	keyboard, mouse, light gun, and other peripherals may also
+	some day be hooked into the system, although they are not
+	currently available (December 1993).  The 3DO can display
+	{full-motion video}, fully {texture map}ped 3d landscapes,
+	all in 24-bit colour.  {Sanyo} and {AT&T} will also release
+	3DO systems.  Sanyo's in mid 1994 and AT&T in late 1994.
+
+	There will be a 3DO add-on cartridge based on the {PowerPC} to
+	enable the 3DO to compete with {Sony}'s {Playstation} console
+	and {Sega}'s {Saturn} console, both of which have a higher
+	specification than the original 3DO.  The add-on is commonly
+	known as the M2 or Bulldog.  It should hit the shops by
+	Christmas 1995 and will (allegedly) do a million flat shaded
+	polygons per second.
+
+	{3DO Home (http://3do.com/)}.
+
+	{Usenet} newsgroup: {news:rec.games.video.3do}.
+
+	(1994-12-13)
+
+3GL
+
+	{third generation language}
+
+3NF
+
+	{database normalisation}
+
+3Station
+
+	<computer, networking> The archetypal {diskless workstation},
+	developed by {Bob Metcalfe} at {3Com} and first available in
+	1986/1987.
+
+	The 3Station/2E had a 10 {MHz} {80286} {processor}, 1 {MB} of
+	{RAM} (expandable to 5 MB), {VGA} compatible graphics with 256
+	{KB} of {video RAM}, and integrated {AUI}/{BNC} network
+	{transceivers} for {LAN} access.
+
+	The product used a single {printed-circuit board} with four
+	custom {ASICs}.  It had no {floppy disk drive} or {hard disk},
+	it was booted from a {server} and stored all {end-user}
+	{files} there.
+
+	3Com advertised "significant cost savings" due to the
+	3Station's ease of installation and low maintenance (this
+	would now be referred to under the banner of "{TCO}").
+
+	The 3Station cost somewhere between an {IBM PC} {clone} and an
+	IBM PC of the day.  It was not commercially successful.
+
+	(2000-07-05)
+
+3-tier
+
+	{three-tier}
+
+404
+
+	<abuse> Someone who's clueless.  From the {World-Wide Web}
+	message "404, URL Not Found" meaning that the document you've
+	tried to access can't be located.
+
+	"Don't bother asking him...he's 404, man".
+
+	404 is one of the standard response codes of the {telnet}
+	{protocol} on which the web's {HTTP} is based.
+
+	The first 4 indicates a client error such as a mistyped URL.
+	The middle 0 refers to a general syntax error.  The last 4
+	just indicates the specific error in the group of 40x, which
+	also includes 400: Bad Request, 401: Unauthorized, etc.
+
+	(2000-03-18)
+
+4.2BSD
+
+	{Berkeley Software Distribution}
+
+431A
+
+	<hardware> The type of plug which fits a standard "type 600"
+	{British Telecom} telephone socket.
+
+	(1995-01-25)
+
+4510
+
+	<processor> A {65CE02} with two {6526}s.
+
+	Used in the {Commodore 65}.
+
+	(1996-04-06)
+
+473L Query
+
+	<language> An English-like {query language} for the US Air
+	Force {473L} system.
+
+	[Sammet 1969, p. 665].
+
+	["Headquarters USAF Command and Control System Query
+	Language", Info Sys Sci, Proc 2nd Congress, Spartan Books
+	1965, pp.57-76].
+
+	(1994-10-31)
+
+486
+
+	{Intel 486}
+
+486SX
+
+	{Intel 486SX}
+
+4GL
+
+	{fourth generation language}
+
+4NF
+
+	{database normalisation}
+
+51forth
+
+	<language> A subroutine-{threaded} {Forth} for the {8051} by
+	Scott Gehmlich.  It comes with source and documentation.
+
+	{(ftp://smis-novell-1.massey.ac.nz/giovanni/51forth.zip)}.
+
+	(1993-04-03)
+
+56 kbps
+
+	<communications> (56 kilobits per second) The data capacity of
+	a normal single channel digital telephone channel in North
+	America.  The figure is derived from the {bandwidth} of 4 kHz
+	allocated for such a channel and the 16-bit encoding (4000
+	times 16 = 64000) used to change {analogue} signals to
+	digital, minus the 8000 bit/s used for signalling and
+	supervision.
+
+	At the end of 1997 there were two rival {modem} designs
+	capable of this rate: {k56flex} and {US Robotics}' {X2}.  In
+	February 1998 the {ITU} proposed a 56kbps standard called
+	{V.90}, which is expected to be formally approved during
+	September 1998.
+
+	(1998-09-15)
+
+56k line
+
+	<communications> A digital connection (possibly a {leased
+	line}, possibly switched) capable of carrying {56 kbps}.
+
+	Compare {DS0}.
+
+	(2000-07-16)
+
+586
+
+	<processor> What {Intel}'s {Pentium} was not called.
+
+5ESS Switch
+
+	<communications> The class 5 electronic switching system sold
+	by {Lucent Technologies}.  The 5ESS Switch is the digital
+	{central office} {circuit switching} system many communication
+	{service providers} use.
+
+	(2001-07-12)
+
+5NF
+
+	{database normalisation}
+
+5th Glove
+
+	<hardware, virtual reality> A {data glove} and flexor strip
+	kit (5th Glove DFK) sold by {Fifth Dimension Technologies} for
+	$495 ($345 for the left-handed version, $45 for each extra
+	flexor strip).  The DFK provides a data glove, a flexon strip
+	(with an elbow or knee-joint sensor), an interface card,
+	cables, and KineMusica software.  The package uses flexible
+	optical-bending sensing to track hand and arm movement.  The
+	glove can be used with 5DT's ultrasonic tracking system, the
+	5DT Head and Hand tracker ($245), which can track movement
+	from up to two metres away from the unit's transmitter.
+
+	(1998-02-06)
+
+6.001
+
+	<education> /siks dub*l oh wun/, /dub*l oh wun/ or rarely
+	/siks dub*l oh fun/ {MIT}'s introductory computer class for
+	majors, known for its intensity.  Developed by {Gerald
+	Sussman} and {Hal Abelson}, the course is taught in {Scheme}
+	and introduces {recursion}, {higher-order functions},
+	{object-oriented programming} and much more.  Students who
+	grasp the {meta}circular {interpreter} gain entry into the
+	{Knights of the Lambda-Calculus}.  6.001 has been exported to
+	several other colleges, sometimes successfully.  The textbook,
+	"Structure and Interpretation of Computer Programs", written
+	with Julie Sussman is a classic that can be found on the
+	shelves of many computer scientists, whether they took the
+	course or not.  Legendary characters from the class, problem
+	sets, and book include the wise Alyssa P. Hacker, Ben
+	Bitdiddle, Lem E. Tweakit and Eva Lu Ator, the careless Louis
+	Reasoner and {Captain Abstraction}.
+
+	(1994-11-22)
+
+610
+
+	<communications> The standard type of two-wire wall socket and
+	plug used for telephones in Australia.
+
+	[Other countries?  Full name?]
+
+	(1997-06-26)
+
+6309
+
+	{Hitachi 6309}
+
+64-bit
+
+	<architecture> A term describing a computer architecture based
+	around an {ALU}, {registers} and {data bus} which are 64
+	{bit}s wide.
+
+	64-bit processors were quite common in 1996, e.g. {Digital}
+	{Alpha}, versions of {Sun} {SPARC}, {MIPS}, {IBM} {AS/4000}.
+	the {PowerPC} and {Intel} were expected to move to 64 bits at
+	their next generation - {PPC 620} and {Intel P7}.
+
+	A 64-bit {address bus} allows the processor to address 18
+	million {gigabytes} as opposed to the mere 4 gigabytes allowed
+	with 32 bits.  There were in 1996 already {hard disks} which
+	can hold over 4GB.  Floating point calculations can also be
+	more accurate.
+
+	A 64-bit {OS} is needed as well to take advantage of the CPU.
+	In 1996 there were only a few 64-bit operating systems,
+	including {OS/400}, {Digital} {Unix}, {Solaris} (partialy).  A
+	32-bit OS can run on a 64-bit CPU.
+
+	(2004-05-12)
+
+6501
+
+	<hardware> An eight-bit {microprocessor}, the first sold by
+	{MOS Technologies}.  The 6501 pin-compatible with the
+	{Motorola 6800} and was the first member of the 650x series.
+	It had an on-chip clock oscillator.
+
+	See also {6502}.
+
+	(2001-02-26)
+
+6502
+
+	<hardware> An eight-bit {microprocessor} designed by {MOS
+	Technologies} around 1975 and made by {Rockwell}.
+
+	Unlike the {Intel 8080} and its kind, the 6502 had very few
+	{registers}.  It was an 8-bit processor, with 16-bit {address
+	bus}.  Inside was one 8-bit data register ({accumulator}), two
+	8-bit {index registers} and an 8-bit {stack pointer} (stack
+	was preset from address 256 to 511).  It used these index and
+	stack registers effectively, with more {addressing modes},
+	including a fast zero-page mode that accessed memory locations
+	from address 0 to 255 with an 8-bit address (it didn't have to
+	fetch a second byte for the address).
+
+	Back when the 6502 was introduced, {RAM} was actually faster
+	than {CPU}s, so it made sense to optimize for RAM access
+	rather than increase the number of registers on a chip.
+
+	The 6502 was used in the {BBC Microcomputer}, {Apple II},
+	{Commodore}, {Apple Computer} and {Atari} {personal
+	computers}.  {Steve Wozniak} described it as the first chip
+	you could get for less than a hundred dollars (actually a
+	quarter of the {6800} price).
+
+	The 6502's {indirect jump} instruction, JMP (xxxx), was
+	{broken}.  If the address was hexadecimal xxFF, the processor
+	would not access the address stored in xxFF and xxFF + 1, but
+	rather xxFF and xx00.  The {6510} did not fix this bug, nor
+	was it fixed in any of the other {NMOS} versions of the 6502
+	such as the {8502}.  Bill Mensch at {Western Design Center}
+	was probably the first to fix it, in the {65C02}.
+
+	The 6502 also had undocumented instructions.
+
+	The {65816} is an expanded version of the 6502.
+
+	There is a 6502 {assembler} by Doug Jones <jones@cs.uiowa.edu>
+	which supports {macros} and conditional features and can be
+	used for linkage editing of object files.  It requires
+	{Pascal}.
+
+	See also {cross-assembler}, {RTI}, {Small-C}.
+
+	(2001-01-02)
+
+650x
+
+	<hardware> A family of {microprocessors} from {MOS
+	Technologies}, based on the design of the {Motorola 6800}
+	(introduced around 1975).  The family included the {6502} used
+	in several early {personal computers}.
+
+6510
+
+	<processor> A successor to the {6502}.
+
+	The 6510 was used in the Commodore 64C.  Successors included
+	the {8502} used in the {Commodore 128} line.
+
+	(2001-01-02)
+
+65816
+
+	<processor> An expanded version of the {6502}, with which it
+	is compatible.  It has 16-bit {index registers} and {stack
+	pointer}, a 16-bit direct page register and a 24-bit {address
+	bus}.  Used in later models of the {Apple II}.
+
+	(1994-10-31)
+
+6800
+
+	{Motorola 6800}
+
+68000
+
+	{Motorola 68000}
+
+68020
+
+	{Motorola 68020}
+
+68030
+
+	{Motorola 68030}
+
+68040
+
+	{Motorola 68040}
+
+68050
+
+	{Motorola 68050}
+
+68060
+
+	{Motorola 68060}
+
+6809
+
+	{Motorola 6809}
+
+680x0
+
+	{Motorola 680x0}
+
+686
+
+	<processor> {Pentium Pro} or possibly {Cyrix 6x86}.
+
+	(1997-05-26)
+
+68HC11
+
+	{Motorola 68HC11}
+
+68LC040
+
+	{Motorola 68LC040}
+
+6x86
+
+	{Cyrix 6x86}
+
+754
+
+	{IEEE Floating Point Standard}
+
+80186
+
+	{Intel 80186}
+
+80188
+
+	{Intel 80188}
+
+80/20 rule
+
+	{eighty-twenty rule}
+
+802.11a
+
+	<networking> A radio-based {LAN} {protocol} which speaks
+	{OFDM} at 5GHz, one of the two {wi-fi} protocols.
+
+	(2003-09-02)
+
+802.11b
+
+	<networking> An {IEEE} {wireless} {local area networks} (WLAN)
+	{standard} {protocol} which speaks {DSSS} at 2.4GHz.  802.11b
+	is one of the two {wi-fi} protocols.  It operates at 11
+	megabits per second (Mbps) compared with {802.11g} which
+	operates at 54 Mbps.
+
+	(2004-01-11)
+
+802.11g
+
+	<networking, standard> An {IEEE} {wireless} {local area
+	network} (WLAN) {standard} {protocol}, expected to be approved
+	in June 2003.  802.11g offers wireless transmission over
+	relatively short distances at up to 54 megabits per second
+	(Mbps).
+
+	802.11g operates in the 2.4 GHz range and is thus compatible
+	with {802.11b} (11 Mbps Wi-Fi).
+
+	(2004-01-11)
+
+802.2
+
+	{IEEE 802.2}
+
+802.3
+
+	{IEEE 802.3}
+
+80286
+
+	{Intel 80286}
+
+8031
+
+	{Intel 8051}
+
+80386
+
+	{Intel 80386}
+
+8048
+
+	{Intel 8048}
+
+80486
+
+	{Intel 486}
+
+8051
+
+	{Intel 8051}
+
+8052
+
+	{Intel 8051}
+
+8080
+
+	{Intel 8080}
+
+8086
+
+	{Intel 8086}
+
+8088
+
+	{Intel 8088}
+
+80x86
+
+	{Intel 80x86}
+
+822
+
+	{RFC 822}
+
+82430FX
+
+	{Triton I}
+
+82430HX
+
+	{Triton II}
+
+82430MX
+
+	{Mobile Triton}
+
+82430VX
+
+	{Triton VX}
+
+8250
+
+	<hardware> A {UART} that can operate at a maximum of 9600 {baud}.
+
+	The 8250 is used in {IBM PC XT} computers.  It works in an
+	{IBM PC AT} under {DOS} but generates unwanted {interrupts}
+	when used at 9600 {baud}.  The {IBM PC} {BIOS} has a bug fix
+	for this chip.
+
+	(2004-03-21)
+
+8.3
+
+	<file system, filename extension> A common shorthand for the
+	limits on filename length imposed by the {file system} used by
+	{MS-DOS} and {Microsoft Windows} - at most eight characters,
+	followed by a ".", followed by a {filename extension} of at
+	most three characters.
+
+	{Windows 95} supports long filenames by using multiple
+	directory entries per file.  The extra entries are hidden.  It
+	also automatically derives an 8.3 name for each file for
+	{backward compatibility} so that older versions of DOS can
+	still access the file.
+
+	(1998-10-05)
+
+8450
+
+	<hardware> A {serial IO chip} with a one-{byte} {FIFO}.  The
+	8450 was introduced with the {Intel 8080}.
+
+	(2004-03-21)
+
+8514
+
+	<hardware> An {IBM} graphics {display standard} supporting a
+	{resolution} of 1024 x 768 {pixels} with 256 colours at 43.5
+	Hz ({interlaced}), or 640 x 480 at 60 Hz interlaced.
+
+	8514 was introduced at the same time as {VGA} and was
+	superseded by {XGA}.
+
+	(1999-08-01)
+
+8514-A
+
+	{8514}
+
+88000
+
+	{Motorola 88000}
+
+88open
+
+	<body> A consortium with the aim of creating a multi-vendor
+	open computing environment based on the {Motorola 88000}
+	{RISC} processor family.
+
+	(1995-01-26)
+
+8-bit clean
+
+	{eight-bit clean}
+
+8N1
+
+	<jargon> Common shorthand for "eight data bits, no {parity},
+	one {stop bit}", the most common configuration for {serial
+	lines}, e.g. {EIA-232}.
+
+	(1995-01-31)
+
+8 queens problem
+
+	{eight queens puzzle}
+
+8 queens puzzle
+
+	{eight queens puzzle}
+
+8x86
+
+	{Intel 80x86}
+
+90-90 Rule
+
+	{Ninety-Ninety Rule}
+
+9PAC
+
+	<tool> 709 PACkage.
+
+	A {report generator} for the {IBM 7090}, developed in 1959.
+
+	[Sammet 1969, p.314. "IBM 7090 Prog Sys, SHARE 7090 9PAC Part
+	I: Intro and Gen Princs", IBM J28-6166, White Plains, 1961].
+
+	(1995-02-07)
+
+:-)
+
+	{emoticon}
+
+;
+
+	{semicolon}
+
+<
+
+	{less than}
+
+=
+
+	{equals}
+
+>
+
+	{greater than}
+
+@
+
+	{commercial at}
+
+\
+
+	{backslash}
+
+A#
+
+	<language> /A sharp/ A separable component of Version 2 of the
+	{AXIOM*} computer algebra system.  It provides a programming
+	language with an {optimising compiler}, an {intermediate code}
+	{interpreter}, and a library of data structures and
+	mathematical {abstractions}.  The compiler produces
+	{stand-alone executable} programs, {object} libraries in
+	{native} {operating system} formats, {portable} {bytecode}
+	libraries, {C} and {Lisp} {source code}.
+
+	The A# programming language has support for {object-oriented}
+	and {functional programming} styles.  Both types and functions
+	are {first class} values that can be manipulated with a range
+	of flexible and composable {primitives} and user programs.
+	The A# language design places particular emphasis on
+	compilation for efficient {machine code} and portability.
+
+	Ports have been made to various 16, 32, and 64 bit
+	architectures: {RS/6000}, {SPARC}, {DEC Alpha}, {i386},
+	{i286}, {Motorola 680x0}, {S 370}; several {operating
+	systems}: {Linux}, {AIX}, {SunOS}, {HP/UX}, {Next}, {Mach} and
+	other {Unix} systems, {OS/2}, {DOS}, {Microsoft Windows},
+	{VMS} and {CMS}; {C} compilers: {Xlc}, {gcc}, {Sun},
+	{Borland}, {Metaware} and {MIPS} C.
+
+	(1995-02-07)
+
+A-0
+
+	<language> (Or A0) A language for the {UNIVAC I} or II, using
+	{three-address code} instructions for solving mathematical
+	problems.  A-0 was the first language for which a {compiler}
+	was developed.  It was produced by {Grace Hopper}'s team at
+	{Remington Rand} in 1952.  Later internal versions were A-1,
+	A-2, A-3, AT-3.  AT-3 was released as {MATH-MATIC}.
+
+	["The A-2 Compiler System", Rem Rand, 1955].
+
+	[Sammet 1969, p. 12].
+
+	(1995-12-03)
+
+a1
+
+	<language> Address 1 code.
+
+	An a1 code {interpreter}, by Matthew Newhook
+	<matthew@engr.mun.ca> was used to test compiler output.  It
+	requires {gcc} 2.4.2 or higher and is portable to computers
+	with {memory segment} protection.
+
+	{(ftp://ftp.cs.mun.ca/pub/a1)}.
+
+	(1994-07-19)
+
+A1 security
+
+	{Orange Book}
+
+A20 handler
+
+	<software, storage> {IBM PC} memory manager software providing
+	{HMA}.  {XMM}s usually provide this functionality.  Named
+	after the 21st address line (A20), controlling the access to
+	HMA.
+
+	(1996-01-10)
+
+A-3
+
+	{ARITH-MATIC}
+
+A3D
+
+	<hardware> (Aureal 3-Dimensional?) A technology developed by
+	{Aureal} that delivers sound with a three-dimensional effect
+	through two speakers.  Many modern {sound cards} and PC games
+	now support this feature.
+
+	A3D differs from the various forms of {surround sound} in that
+	it only requires two speakers, while surround sound typically
+	requires four or five.  It is sometimes less convincing than
+	surround sound but is supposedly better in {interactive}
+	environments.  For example, PC games in which sounds often
+	move from one speaker to another favour A3D, while
+	pre-recorded video favours surround sound.
+
+	{Home (http://a3d.com/)}.
+
+	(1999-01-26)
+
+a56
+
+	<language> An {assembler} for the {Motorola} {DSP56000} and
+	{DSP56001} {digital signal processors} by Quinn Jensen
+	<jensenq@qcj.icon.com>.  Version 1.1 is available from an
+	{alt.sources} archive or {(ftp://wuarchive.wustl.edu/)}.
+
+	(1992-08-10)
+
+AAC
+
+	{Advanced Audio Coding}
+
+AADL
+
+	{Axiomatic Architecture Description Language}
+
+AAL
+
+	{ATM Adaptation Layer}
+
+AAP
+
+	{Association of American Publishers}
+
+AAP DTD
+
+	<standard> A {DTD} for a standard {SGML} document type for
+	scientific documents, defined by the {Association of American
+	Publishers}.
+
+	(1994-11-08)
+
+aard
+
+	<programming, tool> (Dutch for "earth") A tool to check memory
+	use for {C++} programs, written by Steve Reiss
+	<spr@cs.brown.edu> (who names his programs after living
+	systems).
+
+	Aard tracks the state of each byte of memory in the {heap} and
+	the {stack}.  The state can be one of Undefined,
+	Uninitialised, Free or Set.  The program can detect invalid
+	transitions (i.e. attempting to set or use undefined or free
+	storage or attempting to access uninitialised storage).
+
+	In addition, the program keeps track of heap use through
+	{malloc} and {free} and at the end of the run reports memory
+	blocks that were not freed and that are not accessible
+	(i.e. {memory leaks}).
+
+	The tools works using a spliced-in {shared library} on
+	{SPARCs} running {C++} 3.0.1 under {SunOS} 4.X.
+
+	{(ftp://wilma.cs.brown.edu/pub/aard.tar.Z)}.
+
+	(1998-03-03)
+
+AARP
+
+	{Apple Address Resolution Protocol}
+
+AARP probe packets
+
+	<networking> {AARP} {packets} sent out on a nonextended
+	{AppleTalk} network to discover whether a randomly selected
+	node ID is being used by any node.  If not, the sending node
+	uses the node ID.  If so, it chooses a different ID and sends
+	more AARP probe packets.
+
+	(1997-05-03)
+
+AAUI
+
+	{Apple Attachment Unit Interface}
+
+A&B
+
+	<communications> A {bit signaling procedure} used in most {T1}
+	transmission facilities where one bit from every sixth frame
+	of each of 24 T1 {subchannels} is used for carrying
+	{supervisory signaling}.
+
+	[What does it stand for?  Is this the same as "{bit
+	robbing}"?]
+
+	(1997-05-05)
+
+abbrev
+
+	<jargon> /*-breev'/, /*-brev'/ Common abbreviation for
+	"abbreviation".
+
+	(1995-02-27)
+
+Abbreviated Test Language for Avionics Systems
+
+	<language> (ATLAS) A Mil-spec language for automatic testing
+	of avionics equipment.  ATLAS replaced {Gaelic} and several
+	other test languages.
+
+	["IEEE Standard ATLAS Test Language", IEEE Std 416-1976].
+
+	(2000-04-03)
+
+ABC
+
+	1. <computer> {Atanasoff-Berry Computer}.
+
+	2. <language> An {imperative} language and programming
+	environment from {CWI}, Netherlands.  It is interactive,
+	structured, high-level, and easy to learn and use.  It is a
+	general-purpose language which you might use instead of
+	{BASIC}, {Pascal} or {AWK}.  It is not a systems-programming
+	language but is good for teaching or prototyping.
+
+	ABC has only five data types that can easily be combined;
+	{strong typing}, yet without declarations; data limited only
+	by memory; refinements to support top-down programming;
+	nesting by indentation.  Programs are typically around a
+	quarter the size of the equivalent {Pascal} or {C} program,
+	and more readable.
+
+	ABC includes a programming environment with {syntax-directed}
+	editing, {suggestions}, {persistent variables} and multiple
+	workspaces and {infinite precision} arithmetic.
+
+	An example function words to collect the set of all words in a
+	document:
+
+	   HOW TO RETURN words document:
+	      PUT {} IN collection
+	      FOR line in document:
+	         FOR word IN split line:
+	            IF word not.in collection:
+	               INSERT word IN collection
+	      RETURN collection
+
+	{Interpreter}/{compiler}, version 1.04.01, by Leo Geurts,
+	Lambert Meertens, Steven Pemberton <Steven.Pemberton@cwi.nl>.
+	ABC has been ported to {Unix}, {MS-DOS}, {Atari}, {Macintosh}.
+
+	{Home (http://cwi.nl/cwi/projects/abc.html)}.
+
+	{FTP eu.net (ftp://ftp.eu.net/programming/languages/abc)},
+	{FTP nluug.nl (ftp://ftp.nluug.nl/programming/languages/abc)},
+	{FTP uunet (ftp://ftp.uu.net/languages/abc)}.
+
+	Mailing list: <abc-list-request@cwi.nl>.
+
+	E-mail: <abc@cwi.nl>.
+
+	["The ABC Programmer's Handbook" by Leo Geurts, Lambert
+	Meertens and Steven Pemberton, published by Prentice-Hall
+	(ISBN 0-13-000027-2)].
+
+	["An Alternative Simple Language and Environment for PCs" by
+	Steven Pemberton, IEEE Software, Vol. 4, No. 1, January 1987,
+	pp. 56-64.]
+
+	(1995-02-09)
+
+	2. <language> Argument, Basic value, C?.
+
+	An {abstract machine} for implementation of {functional
+	languages} and its intermediate code.
+
+	[P. Koopman, "Functional Programs as Executable
+	Specifications", 1990].
+
+	(1995-02-09)
+
+ABC ALGOL
+
+	<language> An extension of {ALGOL 60} with arbitrary data
+	structures and user-defined operators, for {symbolic
+	mathematics}.
+
+	["ABC ALGOL, A Portable Language for Formula Manipulation
+	Systems", R.P. van de Riet, Amsterdam Math Centrum 1973].
+
+	(1994-10-28)
+
+ABCL/1
+
+	<language> An Object-Based Concurrent Language.
+
+	The language for the {ABCL} {MIMD} system, written by Akinori
+	Yonezawa <matsu@is.s.u-tokyo.ac.jp> of Department of
+	Information Science, {Tokyo University} in 1986.  ABCL/1 uses
+	{asynchronous} {message passing} to {objects}.  It requires
+	{Common Lisp}.  Implementations in {KCL} and {Symbolics Lisp}
+	are available from the author.
+
+	{(ftp://camille.is.s.u-tokyo.ac.jp/)}.
+
+	E-mail: <abcl@is.s.u-tokyo.ac.jp>.
+
+	["ABCL: An Object-Oriented Concurrent System", A. Yonezawa ed,
+	MIT Press 1990].  (1990-05-23).
+
+	(1995-02-09)
+
+ABCL/c+
+
+	<language> A {concurrent} {object-oriented} language, an
+	extension of {ABCL/1} based on {C}.
+
+	["An Implementation of An Operating System Kernel using
+	Concurrent Object Oriented Language ABCL/c+", N. Doi et al in
+	ECOOP '88, S. Gjessing et al eds, LNCS 322, Springer 1988].
+
+	(1994-11-08)
+
+ABCL/R
+
+	<language> A {reflective} subset of {ABCL/1}, written in
+	ABCL/1 by Yonezawa of {Tokyo Institute of Technology} in 1988.
+
+	{(ftp://camille.is.s.u-tokyo.ac.jp/pub/abclr)}.
+
+	["Reflection in an Object-Oriented Concurrent Language",
+	T. Watanabe et al, SIGPLAN Notices 23(11):306-315 (Nov 1988)].
+
+	(1994-11-08)
+
+ABCL/R2
+
+	<language> An {object-oriented}, {concurrent}, {reflective}
+	language based on {Hybrid Group Architecture}. ABCL/R2 was
+	produced by <masuhara@is.s.u-tokyo.ac.jp>,
+	<matsu@is.s.u-tokyo.ac.jp>, <takuo@is.s.u-tokyo.ac.jp>,
+	<yonezawa@is.s.u-tokyo.ac.jp>, at the {Tokyo Institute of
+	Technology} in 1992.
+
+	As a reflective language, an ABCL/R2 program can dynamically
+	control its own behaviour, such as {scheduling} policy, from
+	within a user-program.  This system has almost all functions
+	of {ABCL/1} and is written in {Common Lisp}.
+
+	{(ftp://camille.is.s.u-tokyo.ac.jp/pub/abclr2/)}.
+
+	(1993-01-28)
+
+abduction
+
+	<logic> The process of {inference} to the best explanation.
+
+	"Abduction" is sometimes used to mean just the generation of
+	hypotheses to explain observations or conclusionsm, but the
+	former definition is more common both in philosophy and
+	computing.
+
+	The {semantics} and the implementation of abduction cannot be
+	reduced to those for {deduction}, as explanation cannot be
+	reduced to implication.
+
+	Applications include fault diagnosis, plan formation and
+	{default reasoning}.
+
+	{Negation as failure} in {logic programming} can both be given
+	an abductive interpretation and also can be used to implement
+	abduction.  The abductive semantics of negation as failure
+	leads naturally to an {argumentation}-theoretic interpretation
+	of default reasoning in general.
+
+	[Better explanation?  Example?]
+
+	["Abductive Inference", John R. Josephson
+	<jj@cis.ohio-state.edu>].
+
+	(2000-12-07)
+
+ABEND
+
+	<jargon> /o'bend/, /*-bend'/ ABnormal END.  Abnormal
+	termination (of {software}); {crash}; {lossage}.  Derives from
+	an error message on the {IBM 360}; used jokingly by hackers
+	but seriously mainly by {code grinders}.  Usually capitalised,
+	but may appear as "abend".  Hackers will try to persuade you
+	that ABEND is called "abend" because it is what system
+	operators do to the computer late on Friday when they want to
+	call it a day, and hence is from the German "Abend" =
+	"Evening".
+
+	[{Jargon File}]
+
+	(1994-11-08)
+
+ABI
+
+	{Application Binary Interface}
+
+ABLE
+
+	<language> A simple language for accountants.
+
+	["ABLE, The Accounting Language, Programming and Reference
+	Manual," Evansville Data Proc Center, Evansville, IN, Mar
+	1975].
+
+	[Listed in SIGPLAN Notices 13(11):56 (Nov 1978)].
+
+	(1994-11-08)
+
+ABM
+
+	{Asynchronous Balanced Mode}
+
+ABNF
+
+	{Augmented Backus-Naur Form}
+
+abort
+
+	<programming> To terminate a program or {process} abnormally
+	and usually suddenly, with or without {diagnostic}
+	information.  "My program aborted", "I aborted the
+	transmission".  The noun form in computing is "abort", not
+	"abortion", e.g. "We've had three aborts over the last two
+	days".
+
+	If a {Unix} {kernel} aborts it is known as a {panic}.
+
+	(1997-01-07)
+
+ABP
+
+	1. <networking> {Alternating bit protocol}.
+
+	2. {Microsoft} {Address Book Provider}.
+
+ABR
+
+	{automatic baud rate detection}
+
+abscissa
+
+	<mathematics> The horizontal or x coordinate on an (x, y)
+	graph; the input of a function against which the output is
+	plotted.
+
+	The vertical or y coordinate is the "{ordinate}".
+
+	See {Cartesian coordinates}.
+
+	(1997-07-08)
+
+ABSET
+
+	<language> An early {declarative language} from the
+	{University of Aberdeen}.
+
+	["ABSET: A Programming Language Based on Sets", E.W. Elcock et
+	al, Mach Intell 4, Edinburgh U Press, 1969, pp.467-492].
+
+	(1994-11-08)
+
+absolute path
+
+	<file system> A {path} relative to the {root directory}.  Its
+	first character must be the {pathname separator}.
+
+	(1996-11-21)
+
+absolute pathname
+
+	<file system> A {pathname} relative to the {root directory}.
+
+	(1996-11-21)
+
+abstract class
+
+	<programming> In {object-oriented programming}, a {class}
+	designed only as a parent from which sub-classes may be
+	derived, but which is not itself suitable for instantiation.
+	Often used to "abstract out" incomplete sets of features which
+	may then be shared by a group of sibling sub-classes which add
+	different variations of the missing pieces.
+
+	(1994-11-08)
+
+abstract data type
+
+	<programming> (ADT) A kind of {data abstraction} where a
+	type's internal form is hidden behind a set of {access
+	functions}.  Values of the type are created and inspected only
+	by calls to the access functions.  This allows the
+	implementation of the type to be changed without requiring any
+	changes outside the {module} in which it is defined.
+
+	{Objects} and ADTs are both forms of data abstraction, but
+	objects are not ADTs.  Objects use procedural abstraction
+	(methods), not type abstraction.
+
+	A classic example of an ADT is a {stack} data type for which
+	functions might be provided to create an empty stack, to
+	{push} values onto a stack and to {pop} values from a stack.
+
+	{Reynolds paper
+	(http://cis.upenn.edu/~gunter/publications/documents/taoop94.html)}.
+
+	{Cook paper "OOP vs ADTs"
+	(http://wcook.org/papers/OOPvsADT/CookOOPvsADT90.pdf)}.
+
+	(2003-07-03)
+
+abstract interpretation
+
+	<theory> A partial execution of a program which gains
+	information about its {semantics} (e.g. control structure,
+	flow of information) without performing all the calculations.
+	Abstract interpretation is typically used by compilers to
+	analyse programs in order to decide whether certain
+	optimisations or transformations are applicable.
+
+	The objects manipulated by the program (typically values and
+	functions) are represented by points in some {domain}.  Each
+	abstract domain point represents some set of real
+	("{concrete}") values.
+
+	For example, we may take the abstract points "+", "0" and "-"
+	to represent positive, zero and negative numbers and then
+	define an abstract version of the multiplication operator, *#,
+	which operates on abstract values:
+
+		*# | + 0 -
+		---|------
+		+  | + 0 -
+		0  | 0 0 0
+		-  | - 0 +
+
+	An interpretation is "safe" if the result of the abstract
+	operation is a safe approximation to the abstraction of the
+	concrete result.  The meaning of "a safe approximation"
+	depends on how we are using the results of the analysis.
+
+	If, in our example, we assume that smaller values are safer
+	then the "safety condition" for our interpretation (#) is
+
+		a# *# b# <= (a * b)#
+
+	where a# is the abstract version of a etc.
+
+	In general an interpretation is characterised by the {domains}
+	used to represent the basic types and the abstract values it
+	assigns to constants (where the constants of a language
+	include primitive functions such as *).  The interpretation of
+	constructed types (such as user defined functions, {sum types}
+	and {product types}) and expressions can be derived
+	systematically from these basic domains and values.
+
+	A common use of {abstract interpretation} is {strictness
+	analysis}.
+
+	See also {standard interpretation}.
+
+	(1994-11-08)
+
+abstraction
+
+	1. Generalisation; ignoring or hiding details to capture some
+	kind of commonality between different instances.  Examples are
+	{abstract data types} (the representation details are hidden),
+	{abstract syntax} (the details of the {concrete syntax} are
+	ignored), {abstract interpretation} (details are ignored to
+	analyse specific properties).
+
+	2. <programming> Parameterisation, making something a function
+	of something else.  Examples are {lambda abstractions} (making
+	a term into a function of some variable), {higher-order
+	functions} (parameters are functions), {bracket abstraction}
+	(making a term into a function of a variable).
+
+	Opposite of {concretisation}.
+
+	(1998-06-04)
+
+abstract machine
+
+	1. <language> A processor design which is not intended to be
+	implemented as {hardware}, but which is the notional executor
+	of a particular {intermediate language} (abstract machine
+	language) used in a {compiler} or {interpreter}.  An abstract
+	machine has an {instruction set}, a {register set} and a model
+	of memory.  It may provide instructions which are closer to
+	the language being compiled than any physical computer or it
+	may be used to make the language implementation easier to
+	{port} to other {platforms}.
+
+	A {virtual machine} is an abstract machine for which an
+	{interpreter} exists.
+
+	Examples: {ABC}, {Abstract Machine Notation}, {ALF}, {CAML},
+	{F-code}, {FP/M}, {Hermes}, {LOWL},
+	{Christmas}, {SDL}, {S-K reduction machine}, {SECD}, {Tbl},
+	{Tcode}, {TL0}, {WAM}.
+
+	2. <theory> A procedure for executing a set of instructions in
+	some formal language, possibly also taking in input data and
+	producing output.  Such abstract machines are not intended to
+	be constructed as {hardware} but are used in thought
+	experiments about {computability}.
+
+	Examples: {Finite State Machine}, {Turing Machine}.
+
+	(1995-03-13)
+
+Abstract Machine Notation
+
+	<language> (AMN) A language for specifying {abstract machines}
+	in the {B-Method}, based on the mathematical theory of
+	{Generalised Substitutions}.
+
+	(1995-03-13)
+
+abstract syntax
+
+	<language, data> A representation of data (typically either a
+	message passing over a communications link or a program being
+	compiled) which is independent of machine-oriented structures
+	and encodings and also of the physical representation of the
+	data (called "{concrete syntax}" in the case of compilation or
+	"{transfer syntax}" in communications).
+
+	A {compiler}'s internal representation of a program will
+	typically be specified by an abstract syntax in terms of
+	categories such as "statement", "expression" and "{identifier}".
+	This is independent of the source syntax ({concrete syntax})
+	of the language being compiled (though it will often be very
+	similar).  A {parse tree} is similar to an abstract syntax
+	tree but it will typically also contain features such as
+	parentheses which are syntactically significant but which are
+	implicit in the structure of the {abstract syntax tree}.
+
+	(1998-05-26)
+
+Abstract Syntax Notation 1
+
+	<language, standard, protocol> (ASN.1, X.208, X.680) An
+	{ISO}/{ITU-T} {standard} for transmitting structured {data} on
+	{networks}, originally defined in 1984 as part of {CCITT
+	X.409} '84.  ASN.1 moved to its own standard, X.208, in 1988
+	due to wide applicability.  The substantially revised 1995
+	version is covered by the X.680 series.
+
+	ASN.1 defines the {abstract syntax} of {information} but does
+	not restrict the way the information is encoded.  Various
+	ASN.1 encoding rules provide the {transfer syntax} (a
+	{concrete} representation) of the data values whose {abstract
+	syntax} is described in ASN.1.  The standard ASN.1 encoding
+	rules include {BER} (Basic Encoding Rules - X.209), {CER}
+	(Canonical Encoding Rules), {DER} (Distinguished Encoding
+	Rules) and {PER} (Packed Encoding Rules).
+
+	ASN.1 together with specific ASN.1 encoding rules facilitates
+	the exchange of structured data especially between
+	{application programs} over networks by describing data
+	structures in a way that is independent of machine
+	architecture and implementation language.
+
+	{OSI} {Application layer} {protocols} such as {X.400} {MHS}
+	{electronic mail}, {X.500} directory services and {SNMP} use
+	ASN.1 to describe the {PDU}s they exchange.
+
+	Documents describing the ASN.1 notations: {ITU-T} Rec. X.680,
+	{ISO} 8824-1; {ITU-T} Rec. X.681, {ISO} 8824-2; {ITU-T}
+	Rec. X.682, {ISO} 8824-3; {ITU-T} Rec. X.683, {ISO} 8824-4
+
+	Documents describing the ASN.1 encoding rules: {ITU-T}
+	Rec. X.690, {ISO} 8825-1; {ITU-T} Rec. X.691, {ISO} 8825-2.
+
+	[M. Sample et al, "Implementing Efficient Encoders and
+	Decoders for Network Data Representations", IEEE Infocom 93
+	Proc, v.3, pp. 1143-1153, Mar 1993.  Available from Logica,
+	UK].
+
+	See also {snacc}.
+
+	(2005-07-03)
+
+abstract syntax tree
+
+	<compiler> (AST) A data structure representing something which
+	has been parsed, often used as a {compiler} or {interpreter}'s
+	internal representation of a program while it is being
+	optimised and from which {code generation} is performed.  The
+	range of all possible such structures is described by the
+	{abstract syntax}.
+
+	(1994-11-08)
+
+Abstract-Type and Scheme-Definition Language
+
+	<language> (ASDL) A language developed as part of {Esprit}
+	project {GRASPIN}, as a basis for generating {language-based
+	editors} and environments.  It combines an {object-oriented}
+	type system, syntax-directed translation schemes and a
+	target-language interface.
+
+	["ASDL - An Object-Oriented Specification Language for
+	Syntax-Directed Environments", M.L. Christ-Neumann et al,
+	European Software Eng Conf, Strasbourg, Sept 1987, pp.77-85].
+
+	(1996-02-19)
+
+Abstract Windowing Toolkit
+
+	{Abstract Window Toolkit}
+
+Abstract Window Toolkit
+
+	<graphics> (AWT) {Java}'s {platform}-independent {windowing},
+	graphics, and user-interface {toolkit}.  The AWT is part of
+	the {Java Foundation Classes} (JFC) - the standard {API} for
+	providing a {graphical user interface} (GUI) for a Java
+	program.
+
+	Compare: {SWING}.
+
+	["Java in a Nutshell", O'Reilly].
+
+	{Home (http://java.sun.com/products/jdk/awt/)}.
+
+	(2000-07-26)
+
+ABSYS
+
+	<language> An early {declarative language} from the
+	{University of Aberdeen} which anticipated a number of
+	features of Prolog.
+
+	["ABSYS: An Incremental Compiler for Assertions", J.M. Foster
+	et al, Mach Intell 4, Edinburgh U Press, 1969, pp. 423-429].
+
+	(1994-11-08)
+
+AC2
+
+	<audio> An {audio} format, succeded by {AC3}.
+
+	(2001-12-18)
+
+AC3
+
+	<audio> An {audio} format by Sony[?], the successor of {AC2}.
+	AC3 is used for multi-channel {audio} for {digital video}.
+
+	(2001-12-18)
+
+ACA
+
+	{Application Control Architecture}
+
+ACAP
+
+	{Application Configuration Access Protocol}
+
+Accelerated Graphics Port
+
+	<hardware, graphics> (AGP) A {bus} specification by {Intel}
+	which gives low-cost 3D {graphics cards} faster access to
+	{main memory} on {personal computers} than the usual {PCI}
+	bus.
+
+	AGP dynamically allocates the PC's normal {RAM} to store the
+	screen image and to support {texture mapping}, {z-buffering}
+	and {alpha blending}.
+
+	Intel has built AGP into a {chipset} for its {Pentium II}
+	microprocessor.  AGP cards are slightly longer than a PCI
+	card.
+
+	AGP operates at 66 {MHz}, doubled to 133 MHz, compared with
+	PCI's 33 Mhz.  AGP allows for efficient use of {frame buffer}
+	memory, thereby helping 2D graphics performance as well.
+
+	AGP provides a coherent memory management design which allows
+	scattered data in system memory to be read in rapid bursts.
+	AGP reduces the overall cost of creating high-end graphics
+	subsystems by using existing system memory.
+
+	{Specification
+	(http://developer.intel.com/technology/agp/downloads/agp20.htm)}.
+
+	(2004-07-19)
+
+accelerator
+
+	<hardware> Additional hardware to perform some function faster
+	than is possible in software running on the normal {CPU}.
+	Examples include {graphics accelerators} and {floating-point
+	accelerators}.
+
+	(1994-11-08)
+
+Accent
+
+	<language> A very high level interpreted language from
+	{CaseWare, Inc.} with strings and tables.  It is {strongly
+	typed} and has remote function calls.
+
+	(1994-11-08)
+
+accept
+
+	<library, networking> {Berkeley} {Unix} networking {socket}
+	library routine to satisfy a connection request from a remote
+	{host}.  A specified socket on the local host (which must be
+	capable of accepting the connection) is connected to the
+	requesting socket on the remote host.  The remote socket's
+	socket address is returned.
+
+	{Unix manual pages}: accept(2), connect(2).
+
+	(1994-11-08)
+
+Acceptable Use Policy
+
+	<networking> (AUP) Rules applied by many {transit networks}
+	which restrict the use to which the network may be put.  A
+	well known example is {NSFNet} which does not allow commercial
+	use.  Enforcement of AUPs varies with the network.
+
+	(1994-11-08)
+
+acceptance testing
+
+	<programming> Formal testing conducted to determine whether a
+	system satisfies its acceptance criteria and thus whether the
+	customer should accept the system.
+
+	(1996-05-10)
+
+Acceptance, Test Or Launch Language
+
+	<language> (ATOLL) The language used for automating the
+	checking and launch of Saturn rockets.
+
+	["SLCC ATOLL User's Manual", IBM 70-F11-0001, Huntsville AL
+	Dec 1970].
+
+	(2000-04-03)
+
+acceptor
+
+	{Finite State Machine}
+
+Access
+
+	1. <language> An English-like query language used in the
+	{Pick} {operating system}.
+
+	2. <database, product> {Microsoft Access}.
+
+	(1994-11-08)
+
+Access Control List
+
+	<networking> (ACL) A list of the services available on a
+	{server}, each with a list of the {hosts} permitted to use the
+	service.
+
+	(1994-11-08)
+
+access method
+
+	<networking> 1. The way that network devices access the
+	network medium.
+
+	2. Software in an {SNA} processor that controls the flow of
+	data through a {network}.
+
+	[{physical layer}?]
+
+	(1998-03-02)
+
+access permission
+
+	{permission}
+
+access time
+
+	<hardware, storage> The average time interval between a
+	storage peripheral (usually a {disk drive} or {semiconductor}
+	memory) receiving a request to read or write a certain
+	location and returning the value read or completing the write.
+
+	(1997-06-14)
+
+ACCLAIM
+
+	<project> A European Union {ESPRIT} {Basic Research Action}.
+
+	[What's it about?]
+
+	(1994-11-08)
+
+Accounting File
+
+	<operating system> A file which holds records of the resources
+	used by individual jobs.  These records are used to regulate,
+	and calculate charges for, resources.  An entry is opened in
+	the accounting file as each job begins.
+
+	(1996-12-08)
+
+accounting management
+
+	<networking> The process of identifying individual and group
+	access to various network resources to ensure proper access
+	capabilities ({bandwidth} and security) or to properly charge
+	the various individuals and departments.  Accounting
+	management is one of five categories of {network management}
+	defined by {ISO} for management of {OSI} {networks}.
+
+	(1997-05-05)
+
+Account Representative
+
+	<job> A person in a company who identifies new accounts,
+	analyses customer needs, proposes business solutions,
+	negotiates and oversees the implementation of new projects.
+
+	(2004-03-08)
+
+ACCU
+
+	{Association of C and C++ Users}
+
+accumulator
+
+	<processor> In a {central processing unit}, a {register} in
+	which intermediate results are stored.  Without an
+	accumulator, it would be necessary to write the result of each
+	calculation (addition, multiplication, {shift}, etc.) to {main
+	memory} and read them back.  Access to main memory is slower
+	than access to the accumulator which usually has direct paths
+	to and from the {arithmetic and logic unit} (ALU).
+
+	The {canonical} example is summing a list of numbers.  The
+	accumulator is set to zero initially, each number in turn is
+	added to the value in the accumulator and only when all
+	numbers have been added is the result written to main memory.
+
+	Modern CPUs usually have many registers, all or many of which
+	can be used as accumulators.  For this reason, the term
+	"accumulator" is somewhat archaic.  Use of it as a synonym for
+	"register" is a fairly reliable indication that the user has
+	been around for quite a while and/or that the architecture
+	under discussion is quite old.  The term in full is almost
+	never used of microprocessor registers, for example, though
+	symbolic names for arithmetic registers beginning in "A"
+	derive from historical use of the term "accumulator" (and not,
+	actually, from "arithmetic").  Confusingly, though, an "A"
+	register name prefix may also stand for "address", as for
+	example on the {Motorola} {680x0} family.
+
+	2. <programming> A register, memory location or variable being
+	used for arithmetic or logic (as opposed to addressing or a
+	loop index), especially one being used to accumulate a sum or
+	count of many items.  This use is in context of a particular
+	routine or stretch of code.  "The FOOBAZ routine uses A3 as an
+	accumulator."
+
+	[{Jargon File}]
+
+	(1999-04-20)
+
+accuracy
+
+	<mathematics> How close to the real value a measurement is.
+
+	Compare {precision}.
+
+	(1998-04-19)
+
+ACE
+
+	1. {Advanced Computing Environment}.
+
+	2. {Adaptive Communication Environment}.
+
+ACF
+
+	{Advanced Communications Function}
+
+ACF/NCP
+
+	{Advanced Communication Function/Network Control Program}
+
+ACIA
+
+	{Asynchronous Communications Interface Adapter}
+
+ACID
+
+	<programming> A {mnemonic} for the properties a transaction
+	should have to satisfy the {Object Management Group}
+	{Transaction Service} specifications.  A transaction should be
+	{Atomic}, its result should be Consistent, Isolated
+	(independent of other transactions) and Durable (its effect
+	should be permanent).
+
+	The {Transaction Service} specifications which part of the
+	{Object Services}, an adjunct to the {CORBA} specifications.
+
+	(1997-05-15)
+
+ACIS
+
+	<graphics> Andy, Charles, Ian's System.
+
+	A {geometric engine} that most {CAD} packages now use.  ACIS
+	uses a sophisticated {object-oriented} approach for modelling,
+	the data is stored in {boundary representation}.  Acis is
+	owned by {Spatial Technologies}.
+
+	[How does this differ from "solid modelling"?].
+
+	(1996-03-21)
+
+ACK
+
+	1. <character> /ak/ The {mnemonic} for the ACKnowledge
+	character, {ASCII} code 6.
+
+	2. <communications> A message transmitted to indicate that
+	some data has been received correctly.  Typically, if the
+	sender does not receive the ACK message after some
+	predetermined time, or receives a {NAK}, the original data
+	will be sent again.
+
+	[{Jargon File}]
+
+	(1997-01-07)
+
+ACL
+
+	1. {Access Control List}.
+
+	2. {Association for Computational Linguistics}.
+
+	3. A Coroutine Language.
+
+	A {Pascal}-based implementation of {coroutines}.
+
+	["Coroutines", C.D. Marlin, LNCS 95, Springer 1980].
+
+	(1994-11-08)
+
+ACM
+
+	1. <body> The {Association for Computing}.
+
+	2. <communications> {addressed call mode}.
+
+ACME
+
+	<company, jargon> /ak'mee/ 1. A Company that Makes Everything.
+	The {canonical} imaginary business.  Possibly also derived
+	from the word "acme" meaning "highest point".
+
+	2. A program for {MS-DOS}.
+
+	[What does it do?]
+
+	(1994-11-08)
+
+ACOM
+
+	<language> An early system on the {IBM 705}.
+
+	[Listed in CACM 2(5):16 (May 1959)].
+
+	(1994-11-08)
+
+Acorn Archimedes
+
+	{Archimedes}
+
+Acorn Computer Group
+
+	<company> A holding company for {Acorn Computers} Limited,
+	Acorn Australia, Acorn New Zealand, Acorn GmbH and {Online
+	Media}.  Acorn Computer Group owns 43% of {Advanced RISC
+	Machines} Ltd.
+
+	(1994-11-08)
+
+Acorn Computers Ltd.
+
+	<company> A UK computer manufacturer, part of the {Acorn
+	Computer Group} plc.  Acorn was founded on 1978-12-05, on a
+	kitchen table in a back room.  Their first creation was an
+	electronic slot machine.  After the {Acorn System 1}, 2 and 3,
+	Acorn launched the first commercial {microcomputer} - the
+	{ATOM} in March 1980.  In April 1981, Acorn won a contract
+	from the {BBC} to provide the {PROTON}.  In January 1982 Acorn
+	launched the {BBC Microcomputer} System.  At one time, 70% of
+	microcomputers bought for UK schools were BBC Micros.
+
+	The Acorn Computer Group went public on the Unlisted
+	Securities Market in September 1983.  In April 1984 Acorn won
+	the Queen's Award for Technology for the BBC Micro and in
+	September 1985 {Olivetti} took a controlling interest in
+	Acorn.  The {Master} 128 Series computers were launched in
+	January 1986 and the BBC {Domesday} System in November 1986.
+
+	In 1983 Acorn began to design the Acorn RISC Machine (ARM),
+	the first low-cost, high volume {RISC} processor chip (later
+	renamed the {Advanced RISC Machine}).  In June 1987 they
+	launched the {Archimedes} range - the first 32-bit {RISC}
+	based {microcomputers} - which sold for under UKP 1000.  In
+	February 1989 the R140 was launched.  This was the first
+	{Unix} {workstation} under UKP 4000.  In May 1989 the A3000
+	(the new {BBC Microcomputer}) was launched.
+
+	In 1990 Acorn formed {Advanced RISC Machines} Ltd. (ARM) in
+	partnership with {Apple Computer, Inc.} and {VLSI} to develop
+	the ARM processor.  Acorn has continued to develop {RISC}
+	based products.
+
+	With 1992 revenues of 48.2 million pounds, Acorn Computers was
+	the premier supplier of {Information Technology} products to
+	UK education and had been the leading provider of 32-bit RISC
+	based {personal computers} since 1987.
+
+	Acorn finally folded in the late 1990s.  Their operating
+	system, {RISC OS} was further developed by a consortium of
+	suppliers.
+
+	{Usenet} newsgroups: {news:comp.sys.acorn},
+	{news:comp.sys.acorn.announce}, {news:comp.sys.acorn.tech},
+	{news:comp.binaries.acorn}, {news:comp.sources.acorn},
+	{news:comp.sys.acorn.advocacy}, {news:comp.sys.acorn.games}.
+
+	{Acorn's FTP server (ftp://ftp.acorn.co.uk/)}.
+
+	{HENSA software archive
+	(http://micros.hensa.ac.uk/micros/arch.html)}.  {Richard
+	Birkby's Acorn page (http://csv.warwick.ac.uk/~phudv/)}.
+	{RiscMan's Acorn page (http://geko.com.au/riscman/)}.
+	{Acorn On The Net (http://stir.ac.uk/~rhh01/Main.html)}.
+	{"The Jungle" by Simon Truss
+	(http://csc.liv.ac.uk/users/u1smt/u1smt.html)}.
+
+	[Recent history?]
+
+	(2000-09-26)
+
+Acorn RISC Machine
+
+	<processor> The original name of the {Advanced RISC Machine}.
+
+	(1995-03-07)
+
+ACOS
+
+	<language> A {BBS} language for {PRODOS 8} on {Apple II}.
+	{Macos} is a hacked version of ACOS.
+
+	(1994-11-08)
+
+acoustic coupler
+
+	<hardware, communications> A device used to connect a {modem}
+	to a telephone line via an ordinary handset.  The acoustic
+	coupler converts electrical signals from the {modem} to sound
+	via a loudspeaker, against which the mouthpiece of a telephone
+	handset is placed.  The earpiece is placed against a
+	{microphone} which converts sound to electrical signals which
+	return to the modem.  The handset is inserted into a
+	sound-proof box containing the louspeaker and microphone to
+	avoid interference from ambient noise.
+
+	Acousitic couplers are now rarely used since most modems have
+	a direct electrical connection to the telephone line.  This
+	avoids the signal degradation caused by conversion to and from
+	audio.  Direct connection is not always possible, and was
+	actually illegal in the United Kingdom before {British
+	Telecom} was privatised.  BT's predecessor, the General Post
+	Office, did not allow subscribers to connect their own
+	equipment to the telephone line.
+
+	(1994-11-08)
+
+ACP
+
+	{Algebra of Communicating Processes}
+
+ACPI
+
+	{Advanced Configuration and Power Interface}
+
+Acrobat
+
+	<text, product> A product from {Adobe Systems, Inc.}, for
+	manipulating documents stored in {Portable Document Format}.
+	Acrobat provides a {platform}-independent means of creating,
+	viewing, and printing documents.
+
+	{Acropolis: the magazine of Acrobat publishing
+	(http://acropolis.com/acropolis)}.
+
+	(1995-04-21)
+
+acronym
+
+	<jargon> An identifier formed from some of the letters (often
+	the initials) of a phrase and used as an abbreviation.  {This
+	dictionary} contains a great many acronyms; see the contents
+	page for a list.
+
+	See also {TLA}.
+
+	(1995-03-15)
+
+ACSE
+
+	{Association Control Service Element}
+
+ACT
+
+	1. <software> {Annual Change Traffic}.
+
+	2. <company> {Ada Core Technologies}.
+
+ACT++
+
+	<language> A {concurrent} extension of {C++} based on
+	{actors}.
+
+	["ACT++: Building a Concurrent C++ With Actors", D.G. Kafura
+	TR89-18, VPI, 1989].
+
+	(1994-11-08)
+
+Act1
+
+	<language> An {actor} language descended from {Plasma}.
+
+	["Concurrent Object Oriented Programming in Act1",
+	H. Lieberman in Object Oriented Concurrent Programming,
+	A. Yonezawa et al eds, MIT Press 1987].
+
+	(1994-11-08)
+
+Act2
+
+	<language> An {actor} language.
+
+	["Issues in the Design of Act2", D. Theriault, TR728, MIT AI
+	Lab, June 1983].
+
+	(1994-11-08)
+
+Act3
+
+	<language> A high-level {actor} language by {Carl Hewitt}.  A
+	descendant of {Act2} which provides support for automatic
+	generation of {customers} and for {delegation} and
+	{inheritance}.
+
+	["Linguistic Support of Receptionists for Shared Resources",
+	C. Hewitt et al in Seminar on Concurrency, S.D. Brookes et al
+	eds, LNCS 197, Springer 1985, pp. 330-359].
+
+	(1994-11-08)
+
+Actalk
+
+	<language> A {Smalltalk}-based {actor} language developed by
+	J-P Briot in 1989.
+
+	["Actalk: A Testbed for Classifying and Designing Actor
+	Languages in the Smalltalk-80 Environment", J-P. Briot, Proc
+	ECOOP '89, pp. 109-129].
+
+	(1994-11-08)
+
+Actis
+
+	<programming> An approach to integrated {CASE} by {Apollo}.
+
+	(1994-11-08)
+
+activation record
+
+	<compiler> (Or "data frame", "stack frame") A data structure
+	containing the variables belonging to one particular {scope}
+	(e.g. a procedure body), as well as links to other activation
+	records.
+
+	Activation records are usually created (on the {stack}) on
+	entry to a block and destroyed on exit.  If a procedure or
+	function may be returned as a result, stored in a variable and
+	used in an outer scope then its activation record must be
+	stored in a {heap} so that its variables still exist when it
+	is used.  Variables in the current {scope} are accessed via
+	the {frame pointer} which points to the current activation
+	record.  Variables in an outer scope are accessed by following
+	chains of links between activation records.  There are two
+	kinds of link - the {static link} and the {dynamic link}.
+
+	(1995-03-07)
+
+active DBMS
+
+	<database> A conventional or passive {DBMS} combined with a
+	means of event detection and condition monitoring.  Event
+	handling is often rule-based, as with an {expert system}.
+
+	(1994-11-08)
+
+Active Directory
+
+	<operating system> A {directory service} from {Microsoft
+	Corporation}, similar in concept to {Novell} {Netware
+	Directory Services (NDS)}, that also integrates with the user
+	organisation's {DNS} structure and is interoperable with
+	{LDAP}.  Active Directory is included in {Windows 2000}.
+
+	(2000-03-28)
+
+Active Language I
+
+	<tool, mathematics> An early interactive mathematics system
+	for the {XDS 930} at the {University of California at
+	Berkeley}.
+
+	["Active Language I", R. de Vogelaere in Interactive Systems
+	for Experimental Applied Mathematics, A-P 1968].
+
+	(1994-11-08)
+
+active matrix display
+
+	<hardware> A type of {liquid crystal display} where each
+	display element (each {pixel}) includes an active component
+	such as a {transistor} to maintain its state between scans.
+
+	Contrast {passive matrix display}.
+
+	(1995-12-09)
+
+Active Measurement Project
+
+	<networking, tool, project> (AMP) An {NLANR} project
+	undertaking site-to-site measurement across the {HPC}
+	networks.  This work is intended to compliment the
+	measurements taken by {MCI} and {Abilene} within the networks'
+	infrastructure.  Currently {round trip times}, {topology}, and
+	{packet loss} are being measured.
+
+	(2004-01-18)
+
+Active Monitor
+
+	<networking> A process in an {IBM} {token ring} network which
+	ensures a token is present on the ring, removes circulating
+	frames with unknown or invalid destinations, and performs
+	introductions between machines on the ring.
+
+	(1996-06-18)
+
+active object
+
+	<programming> An {object} each {instance} of which has its own
+	{thread} running as well as its own copies of the object's
+	{instance variables}.
+
+	(1998-03-08)
+
+Active Reconfiguring Message
+
+	<hardware> (ARM) An efficient mechanism which allows
+	reconfiguration of the hardware logic of a system according to
+	the particular data received or transmitted.
+
+	In ARM each message contains extra information in a
+	Reconfiguring {Header} in addition to the data to be
+	transferred.  Upon arrival of the message the Reconfiguring
+	Header is extracted, decoded and used to perform on-the-fly
+	hardware reconfiguration.  As soon as the hardware has been
+	reconfigured the data information of the message can be
+	processed.
+
+	[In what contect is this term used?]
+
+	(1997-06-06)
+
+Active Server Pages
+
+	<World-Wide Web, programming> (ASP) A {scripting} environment
+	for {Microsoft Internet Information Server} in which you can
+	combine {HTML}, scripts and reusable {ActiveX} {server}
+	components to create dynamic {web pages}.
+
+	IIS 4.0 includes scripting engines for {Microsoft Visual
+	Basic} Scripting Edition ({VBScript}) and {Microsoft JScript}.
+	{ActiveX} scripting engines for {Perl} and {REXX} are
+	available through third-party developers.
+
+	[URL?]
+
+	(1999-12-02)
+
+ActiveX
+
+	<programming> A type of {COM} component that can
+	self-register, also known as an "ActiveX control".  All COM
+	objects implement the "IUnknown" interface but an ActiveX
+	control usually also implements some of the standard
+	interfaces for embedding, user interface, methods, properties,
+	events, and persistence.
+
+	ActiveX controls were originally called "{OLE} Controls", and
+	were required to provide all of these interfaces but that
+	requirement was dropped, and the name changed, to make ActiveX
+	controls lean enough to be downloaded as part of a web page.
+
+	Because ActiveX components can support the OLE embedding
+	interfaces, they can be included in web pages.  Because they
+	are COM objects, they can be used from languages such as
+	{Visual Basic}, {Visual C++}, {Java}, {VBScript}.
+
+	["Understanding ActiveX and OLE", David Chappell, MS Press,
+	1996].
+
+	{Home (http://microsoft.com/com/tech/activex.asp)}.
+
+	(2002-04-19)
+
+ActiveX Data Objects
+
+	<database, Microsoft, programming> (ADO) {Microsoft}'s
+	{library} for accessing data sources through {OLE DB}.
+	Typically it is used to query or modify data stored in a
+	relational database.
+
+	{Home
+	(http://msdn.microsoft.com/library/en-us/ado270/htm/adostartpage1.asp)}.
+
+	(2003-07-08)
+
+ACT ONE
+
+	<language, specification> A specification language.
+
+	["An Algebraic Specification Language with Two Levels of
+	Semantics", H. Ehrig et al, Tech U Berlin 83-1983-02-03].
+
+	(1994-11-08)
+
+Actor
+
+	<language> An {object-oriented} language for {Microsoft
+	Windows} written by Charles Duff of the {Whitewater Group} ca.
+	1986.  It has {Pascal}/{C}-like {syntax}.  Uses a
+	{token-threaded} {interpreter}.  {Early binding} is an option.
+
+	["Actor Does More than Windows", E.R. Tello, Dr Dobb's J
+	13(1):114-125 (Jan 1988)].
+
+	(1994-11-08)
+
+actor
+
+	1. <programming> In {object-oriented} programming, an {object}
+	which exists as a {concurrent} process.
+
+	2. <operating system> In {Chorus}, the unit of resource
+	allocation.
+
+	(1994-11-08)
+
+Actors
+
+	<theory> A model for {concurrency} by {Carl Hewitt}.  Actors
+	are autonomous and concurrent {objects} which execute
+	{asynchronously}.  The Actor model provides flexible
+	mechanisms for building parallel and {distributed} software
+	systems.
+
+	{(http://osl.cs.uiuc.edu/)}.
+
+	["Laws for Communicating Parallel Processes", C. Hewitt et al,
+	IFIP 77, pp. 987-992, N-H 1977].
+
+	["ACTORS: A Model of Concurrent Computation in Distributed
+	Systems", Gul A. Agha <agha@cs.uiuc.edu>, Cambridge Press, MA,
+	1986].
+
+	(1999-11-23)
+
+actor/singer/waiter/webmaster
+
+	<World-Wide Web> An elaboration of the ages-old concept of the
+	actor/singer/waiter, someone who waits tables _for now_, but
+	who has aspirations of breaking into the glamorous worlds of
+	acting or New Media or both!
+
+	He keeps going to auditions and sending a resumes to {C|Net
+	(http://cnet.com/)} because you have to pay your dues.
+
+	His credits include being on "Friends" (as an extra), in "ER"
+	(actually, in an ER - he twisted his ankle once; but he counts
+	the x-rays as screen credits), and having been the webmaster
+	of an extensive multimedia interactive website (his hotlist of
+	"Simpsons" links).
+
+	(1998-04-04)
+
+Actra
+
+	<language> A {multi-processor} {exemplar}-based {Smalltalk}.
+
+	[LaLonde et al, OOPSLA '86].
+
+	(1994-11-08)
+
+actual argument
+
+	<programming> A value, expression, or reference passed to a
+	{function} or {subroutine} when it is called and which
+	replaces or is bound to the corresponding {formal argument}.
+
+	See: {argument}.
+
+	(2002-07-02)
+
+Actus
+
+	<language> {Pascal} with parallel extensions, similar to the
+	earlier {Glypnir}.  It has parallel constants and {index
+	sets}.  Descendants include {Parallel Pascal}, {Vector C} and
+	{CMU}'s language {PIE}.
+
+	["A Language for Array and Vector Processors," R.H. Perrott,
+	ACM TOPLAS 1(2):177-195 (Oct 1979)].
+
+	(1994-11-08)
+
+AD
+
+	{Administrative Domain}
+
+ad
+
+	<networking> The {country code} for Andorra.
+
+	(1999-01-26)
+
+Ada
+
+	<language> (After {Ada Lovelace}) A {Pascal}-descended
+	language, designed by Jean Ichbiah's team at {CII Honeywell}
+	in 1979, made mandatory for Department of Defense software
+	projects by the Pentagon.  The original language was
+	standardised as "Ada 83", the latest is "{Ada 95}".
+
+	Ada is a large, complex, {block-structured} language aimed
+	primarily at {embedded} applications.  It has facilities for
+	{real-time} response, {concurrency}, hardware access and
+	reliable run-time error handling.  In support of large-scale
+	{software engineering}, it emphasises {strong typing}, {data
+	abstraction} and {encapsulation}.  The type system uses {name
+	equivalence} and includes both {subtypes} and {derived types}.
+	Both fixed and {floating-point} numerical types are supported.
+
+	{Control flow} is fully bracketed: if-then-elsif-end if,
+	case-is-when-end case, loop-exit-end loop, goto.  Subprogram
+	parameters are in, out, or inout.  Variables imported from
+	other packages may be hidden or directly visible.  Operators
+	may be {overloaded} and so may {enumeration} literals.  There
+	are user-defined {exceptions} and {exception handlers}.
+
+	An Ada program consists of a set of packages encapsulating
+	data objects and their related operations.  A package has a
+	separately compilable body and interface.  Ada permits
+	{generic packages} and subroutines, possibly parametrised.
+
+	Ada support {single inheritance}, using "tagged types" which
+	are types that can be extended via {inheritance}.
+
+	Ada programming places a heavy emphasis on {multitasking}.
+	Tasks are synchronised by the {rendezvous}, in which a task
+	waits for one of its subroutines to be executed by another.
+	The conditional entry makes it possible for a task to test
+	whether an entry is ready.  The selective wait waits for
+	either of two entries or waits for a limited time.
+
+	Ada is often criticised, especially for its size and
+	complexity, and this is attributed to its having been designed
+	by committee.  In fact, both Ada 83 and Ada 95 were designed
+	by small design teams to be internally consistent and tightly
+	integrated.  By contrast, two possible competitors, {Fortran
+	90} and {C++} have both become products designed by large and
+	disparate volunteer committees.
+
+	See also {Ada/Ed}, {Toy/Ada}.
+
+	{Home of the Brave Ada Programmers
+	(http://lglwww.epfl.ch/Ada/)}.  {Ada FAQs
+	(http://lglwww.epfl.ch/Ada/FAQ/)} (hypertext), {text only
+	(ftp://lglftp.epfl.ch/pub/Ada/FAQ)}.
+
+	{(http://wuarchive.wustl.edu/languages/ada/)},
+	{(ftp://ajpo.sei.cmu.edu/)},
+	{(ftp://stars.rosslyn.unisys.com/pub/ACE_8.0)}.
+
+	E-mail: <adainfo@ajpo.sei.cmu.edu>.
+
+	{Usenet} newsgroup: {news:comp.lang.ada}.
+
+	{An Ada grammar (ftp://primost.cs.wisc.edu/)} including a lex
+	scanner and yacc parser is available.  E-mail:
+	<masticol@dumas.rutgers.edu>.
+
+	{Another yacc grammar and parser for Ada by Herman Fischer
+	(ftp://wsmr-simtel20.army.mil/PD2:<ADA.EXTERNAL-TOOLS>GRAM2.SRC)}.
+
+	An {LR parser} and {pretty-printer} for {Ada} from NASA is
+	available from the {Ada Software Repository}.
+
+	{Adamakegen} generates {makefiles} for {Ada} programs.
+
+	["Reference Manual for the Ada Programming Language", ANSI/MIL
+	STD 1815A, US DoD (Jan 1983)].  Earlier draft versions
+	appeared in July 1980 and July 1982.  ISO 1987.
+
+	[{Jargon File}]
+
+	(2000-08-12)
+
+Ada++
+
+	<language> An {object-oriented} extension to {Ada},
+	implemented as an Ada {preprocessor}.  Obsoleted by {Ada 95}
+	which includes object-oriented features.
+
+	[{Jargon File}]
+
+	(1995-09-19)
+
+Ada 83
+
+	<language> The original {Ada}, as opposed to {Ada 95}.
+
+	(1995-03-13)
+
+Ada 95
+
+	<language> A revision and extension of {Ada} (Ada 83) begun in
+	1988 and completed on 1994-12-01 by a team lead by Tucker Taft
+	of {Intermetrics}.  Chris Anderson was the Project Manager.
+	The printed standard was expected to be available around
+	1995-02-15.
+
+	Additions include {object-orientation} ({tagged types},
+	{abstract types} and {class-wide types}), hierarchical
+	libraries and synchronisation with shared data (protected
+	types) similar to {Orca}.  It lacks {multiple inheritance} but
+	supports the construction of multiple inheritance type
+	hierarchies through the use of {generics} and {type
+	composition}.
+
+	{GNAT} aims to be a free implementation of Ada 95.
+
+	You can get the standard from the {Ada Joint Program Office
+	(http://wuarchive.wustl.edu/languages/ada/ajpo/index.shtml)}.
+
+	["Introducing Ada 9X", J.G.P. Barnes, Feb 1993].
+
+	(1999-12-02)
+
+Ada 9X
+
+	<language> The working title for {Ada 95} before its adoption
+	as an {ISO} {standard}.
+
+	(1995-01-19)
+
+ADABAS
+
+	<database> A {relational database} system by {Software AG}.
+	While it was initially designed for large {IBM} {mainframe}
+	systems (e.g. {S/370} in the late 1970s), it has been ported
+	to numerous other {platforms} over the last few years such as
+	several flavors of {Unix} including {AIX}.
+
+	ADABAS stores its data in tables (and is thus "relational")
+	but also uses some non-relational techniques, such as
+	{multiple values} and {periodic groups}.
+
+	(1995-10-30)
+
+Ada Core Technologies
+
+	<company> (ACT) The company that maintains {GNAT}.
+
+	Ada Core Technologies was founded in 1994 by the original
+	authors of the GNAT compiler.  ACT provides software for {Ada
+	95} development.
+
+	{Home (http://gnat.com/)}.
+
+	(2000-10-28)
+
+Ada/Ed
+
+	<language, education> An {interpreter}, editor, and {run-time
+	environment} for {Ada}, intended as a teaching tool.  Ada/Ed
+	does not have the capacity, performance, or robustness of
+	commercial Ada compilers.  Ada/Ed was developed at {New York
+	University} as part of a project in language definition and
+	software prototyping.
+
+	AdaEd runs on {Unix}, {MS-DOS}, {Atari ST}, and {Amiga}.
+
+	It handles nearly all of {Ada 83} and was last validated with
+	version 1.7 of the {ACVC} tests.  Being an interpreter, it
+	does not implement most {representation clauses} and thus does
+	not support systems programming close to the machine level.
+
+	Latest version: 1.11.0a+, as of 1994-08-18.  A later version
+	is known as {GW-Ada}.
+
+	E-mail: Michael Feldman <mfeldman@seas.gwu.edu>.
+
+	{(ftp://ftp.wustl.edu/amiga/languages/ada)},
+	{(ftp://cnam.cnam.fr/pub/Ada/Ada-Ed)}.  {For Amiga
+	(ftp://cs.nyu.edu/pub/adaed)}.
+
+	{RISC OS port
+	(ftp://micros.hensa.ac.uk/micros/arch/riscos/c/c052)}.
+
+	(1999-11-04)
+
+Adaline
+
+	<architecture> Name given by Widrow to {adaptive linear
+	neurons}, that is {neurons} (see {McCulloch-Pitts}) which
+	learn using the {Widrow-Huff Delta Rule}.  See also
+	{Madaline}.
+
+	(1995-03-14)
+
+Ada Lovelace
+
+	<person> (1811-1852) The daughter of Lord Byron, who became
+	the world's first programmer while cooperating with {Charles
+	Babbage} on the design of his mechanical computing engines in
+	the mid-1800s.
+
+	The language {Ada} was named after her.
+
+	[{"Ada, Enchantress of Numbers Prophit of the Computer Age",
+	Betty Alexandra Toole (http://well.com/user/adatoole)}].
+
+	[More details?]
+
+	(1999-07-17)
+
+ADAM
+
+	{A Data Management system}
+
+Adam7
+
+	<graphics, algorithm> One of the {progressive coding} methods
+	used in {PNG} {images}.  Adam7, named after its author, Adam
+	M. Costello, consists of seven distinct passes over the image.
+	Each pass transmits a subset of the {pixels} in the image.
+	The pass in which each pixel is transmitted is defined by
+	replicating the following 8-by-8 pattern over the entire
+	image, starting at the top left:
+
+	 1 6 4 6 2 6 4 6
+	 7 7 7 7 7 7 7 7
+	 5 6 5 6 5 6 5 6
+	 7 7 7 7 7 7 7 7
+	 3 6 4 6 3 6 4 6
+	 7 7 7 7 7 7 7 7
+	 5 6 5 6 5 6 5 6
+	 7 7 7 7 7 7 7 7
+
+	(2000-09-12)
+
+Adamakegen
+
+	<tool> A program that generates {makefiles} for {Ada}
+	programs.  Adamakegen was written by Owen O'Malley
+	<owen@schwartz-omalley.com>.  It requires {Icon} and runs
+	under {Verdix} and {SunAda}.
+
+	Current version: 2.6.3, as of 1993-03-02.
+
+	{Adamakegen Home
+	(http://schwartz-omalley.com/people/owen/tools/adamakegen.html)}.
+
+	(2004-08-21)
+
+ADAMO
+
+	<database> A data management system written at {CERN}, based
+	on the {Entity-Relationship model}.
+
+	(1995-03-14)
+
+Ada-O
+
+	<language> An {Ada} subset developed at the {University of
+	Karlsruhe} in 1979, used for {compiler} {bootstrapping}.  It
+	lacks {overloading}, {derived types}, {real numbers}, tasks
+	and {generics}.
+
+	["Revised Ada-O Reference Manual", G. Persch et al, U
+	Karlsruhe, Inst fur Infor II, Bericht Nr 9/81].
+
+	(1995-02-14)
+
+Adaplan
+
+	<language> A {functional database} language based upon
+	{Backus}' {FP} language.
+
+	[Erwig&Lipeck, Proc. DBPL-3, 1991].
+
+	(1995-05-07)
+
+Adaplex
+
+	<language, database> An extension of {Ada} for {functional
+	databases}.
+
+	["Adaplex: Rationale and Reference Manual 2nd ed", J.M. Smith
+	et al, Computer Corp America, Cambridge MA, 1983].
+
+	(1995-02-14)
+
+Ada Programming Support Environment
+
+	<tool, project> (APSE) A program or set of programs to support
+	software development in the Ada language.
+
+	[Examples?]
+
+	(1997-06-30)
+
+ADAPT
+
+	<language> A subset of {APT}.
+
+	[Sammet 1969, p. 606].
+
+	(1995-02-14)
+
+Adaptable User Interface
+
+	<tool, product> (AUI, Oracle Toolkit) A toolkit from {Oracle}
+	allowing applications to be written which will be portable
+	between different {windowing systems}.  AUI provides one {call
+	level interface} along with a resource manager and editor
+	across a range of "standard" {GUIs}, including {Macintosh},
+	{Microsoft Windows} and the {X Window System}.
+
+	(1995-03-16)
+
+Adaptec
+
+	<company> A company specialising in the aera of movement of
+	data between computers.  Adaptec designs hardware and software
+	products to transfer data from a computer to a {peripheral}
+	device or {network}.
+
+	Founded in 1981, the company achieved profitability in 1984,
+	went public in 1986, and to date has achieved 54 consecutive
+	profitable quarters.
+
+	Revenues for fiscal 1997 were $934 million, a 42% increase
+	over the prior year.  Net income, excluding acquisition
+	charges, for fiscal year 1997 was $198 million or $1.72 per
+	share.
+
+	{Home (http://adaptec.com)}.
+
+	(1999-08-25)
+
+adaptive answering
+
+	<communications> A feature which allows a {faxmodem} to answer
+	the telephone and decide whether the incoming call is a fax or
+	data call.  Most {Class 1} faxmodems do this.  The
+	{U.S. Robotics} Class 1 implementation however seems not to do
+	it, it must be set to answer as either one or the other.
+
+	(1995-03-16)
+
+Adaptive Communication Environment
+
+	<communications, tool> A {C++} wrapper library for
+	communications from the {University of California at Irvine}.
+
+	(1995-03-16)
+
+Adaptive Digital Pulse Code Modulation
+
+	<communications> (ADPCM) A {compression} technique which
+	records only the difference between samples and adjusts the
+	coding scale dynamically to accomodate large and small
+	differences.  ADPCM is simple to implement, but introduces
+	much {noise}.
+
+	[Used where?  Does the {Sony} minidisk use ADPCM or {ATRAC}?]
+
+	(1998-12-10)
+
+adaptive learning
+
+	<algorithm> (Or "{Hebbian} learning") Learning where a system
+	programs itself by adjusting weights or strengths until it
+	produces the desired output.
+
+	(1995-03-16)
+
+adaptive routing
+
+	{dynamic routing}
+
+Adaptive Server Enterprise
+
+	<database (ASE) The {relational database management system}
+	that started life in the mid-eighties [first release?] as
+	"Sybase SQL Server".  For a number of years {Microsoft} was a
+	Sybase distributor, reselling the Sybase product for {OS/2}
+	and (later) {Windows NT} under the name "Microsoft SQL
+	Server".
+
+	Around 1994, Microsoft basically bought a copy of the {source
+	code} of Sybase SQL Server and then went its own way.  As
+	competitors, Sybase and Microsoft have been developing their
+	products independently ever since.  Microsoft has mostly
+	emphasised ease-of-use and "Window-ising" the product, while
+	Sybase has focused on maximising performance and reliability,
+	and running on high-end hardware.
+
+	When releasing version 11.5 in 1997, Sybase renamed its
+	product to "ASE" to better distinguish its database from
+	Microsoft's.  Both ASE and MS SQL Server call their query
+	language "Transact-SQL" and they are very similar.
+
+	Sybase SQL Server was the first true {client-server} RDBMS
+	which was also capable of handling real-world workloads.  In
+	contrast, other DBMSs have long been monolithic programs; for
+	example, {Oracle} only "bolted on" client-server functionality
+	in the mid-nineties.  Also, Sybase SQL Server was the first
+	commercially successful RDBMS supporting {stored procedures}
+	and {triggers}, and a cost-based {query optimizer}.
+
+	As with many other technology-driven competitors of Microsoft,
+	Sybase has lost market share to MS's superior marketing,
+	though many consider it has the superior system.
+
+	{(http://sypron.nl/whatis_ase.html)}.
+
+	(2003-07-02)
+
+Adaptive Simulated Annealing
+
+	<language> (ASA) An {algorithm} for global optimisation of
+	generic {functions} by Lester Ingber
+	<ingber@alumni.caltech.edu> <ingber@ingber.com>.
+
+	Latest version: 20.5, as of 2000-02-29.
+
+	{Home (http://alumni.caltech.edu/~ingber/)}.
+
+	{Home (http://ingber.com/)}.
+
+	Mailing list: <asa-request@alumni.caltech.edu>.
+
+	(2000-02-29)
+
+Adaptive TRansform Acoustic Coding
+
+	<algorithm> (ATRAC) An audio compression {algorithm},
+	introduced by {Sony} for its {Mini Disk}, which relies on the
+	masking of low-amplitude frequency components by temporaly
+	adjacent high-amplitude components.  ATRAC consists of a
+	three-band {subband encoder} (0...5.5, 5.5...11, 11...22 kHz)
+	and a {MDCT} based transformation encoder.
+
+	[Does Sony Minidisk use {ADPCM}?]
+
+	(2001-12-13)
+
+Adaptor
+
+	<tool> (Automatic DAta Parallelism TranslatOR) A source to
+	source transformation tool that transforms {data parallel}
+	programs written in {Fortran 77} with {array} extensions,
+	parallel loops, and layout directives to parallel programs
+	with explicit {message passing}.  ADAPTOR generates {Fortran
+	77} host and node programs with message passing.  The new
+	generated source codes have to be compiled by the compiler of
+	the parallel computer.
+
+	Version 1.0 runs on {CM-5}, {iPCS/860}, {Meiko CS1}/CS2, {KSR
+	1}, {SGI}, {Alliant} or a network of {Suns} or {RS/6000s}.
+
+	{(ftp://ftp.gmd.de/gmd/adaptor/adp_1.0.tar.Z)}.
+
+	[Connection with Thomas Brandes and GMD?]
+
+	(1993-06-01)
+
+Ada Semantic Interface Specification
+
+	<language> (ASIS) An intermediate representation for {Ada}.
+
+	E-mail: <sblake@thomsoft.com>.
+
+	See also {Diana}.
+
+	(1995-02-15)
+
+Ada Software Repository
+
+	<language> A collection of {Ada} programs?
+
+	{Home (http://wuarchive.wustl.edu/languages/ada/asr/)}.
+
+	(1995-01-06)
+
+ADC
+
+	{Analog to Digital Converter}
+
+ADCCP
+
+	{Advanced Data Communications Control Protocol}
+
+A/D converter
+
+	{Analog to Digital Converter}
+
+ADCU
+
+	{application developer customer unit}
+
+AD/Cycle
+
+	<tool, product> Application Development cycle.
+
+	A set of {SAA}-compatible {IBM}-sponsored products for program
+	development, running on workstations accessing a central
+	repository on a {mainframe}.  The stages cover requirements,
+	analysis and design, production of the application, building
+	and testing and maintenance.  Technologies used include code
+	generators and {knowledge based systems} as well as languages
+	and debuggers.
+
+	(1994-10-24)
+
+ADD 1 TO COBOL GIVING COBOL
+
+	<humour, language> (From COBOL's equivalent syntax to C's C++)
+	A tongue-in-cheek suggestion by Bruce Clement for an
+	{object-oriented} {COBOL}.
+
+	[SIGPLAN Notices 27(4):90-91 (Apr 1992)].
+
+	(1995-03-17)
+
+ADDD
+
+	<tool> A Depository of Development Documents.
+
+	A {public domain} Software Engineering Environment from {GMD}
+	developed as part of the {STONE} project.
+
+	(1995-02-03)
+
+additive
+
+	<mathematics> A function f : X -> Y is additive if
+
+	 for all Z <= X
+	 f (lub Z)  =  lub { f z : z in Z }
+
+	(f "preserves {lubs}").  All additive functions defined over
+	{cpos} are {continuous}.
+
+	("<=" is written in {LaTeX} as {\subseteq}, "lub" as \sqcup ).
+
+	(1995-02-03)
+
+address
+
+	1. <networking> {e-mail address}.
+
+	2. <networking> {Internet address}.
+
+	3. <networking> {MAC address}.
+
+	4. <storage, programming> An unsigned integer used to select
+	one fundamental element of storage, usually known as a {word}
+	from a computer's {main memory} or other storage device.  The
+	{CPU} outputs addresses on its {address bus} which may be
+	connected to an {address decoder}, {cache controller}, {memory
+	management unit}, and other devices.
+
+	While from a hardware point of view an address is indeed an
+	integer most {strongly typed} programming languages disallow
+	mixing integers and addresses, and indeed addresses of
+	different data types.  This is a fine example for {syntactic
+	salt}: the compiler could work without it but makes writing
+	bad programs more difficult.
+
+	(1997-07-01)
+
+address bus
+
+	<processor> The connections between the {CPU} and memory which
+	carry the {address} from/to which the CPU wishes to read or
+	write.  The number of bits of address bus determines the
+	maximum size of memory which the processor can access.
+
+	See also {data bus}.
+
+	(1995-03-22)
+
+addressed call mode
+
+	<communications> (ACM) A mode that permits control signals and
+	commands to establish and terminate calls in {V.25bis}.
+
+	(1997-05-07)
+
+addressee
+
+	<communications> One to whom something is addressed.
+	E.g. "The To, CC, and {BCC} {headers} list the addressees of
+	the e-mail message".  Normally an addressee will eventually be
+	a {recipient}, unless there is a failure at some point (an
+	e-mail "{bounces}") or the message is redirected to a
+	different addressee.
+
+	(2000-03-22)
+
+addressing mode
+
+	1. <processor, programming> One of a set of methods for
+	specifying the {operand}(s) for a {machine code} instruction.
+	Different processors vary greatly in the number of addressing
+	modes they provide.  The more complex modes described below
+	can usually be replaced with a short sequence of instructions
+	using only simpler modes.
+
+	The most common modes are "register" - the operand is stored
+	in a specified {register}; "absolute" - the operand is stored
+	at a specified memory address; and "{immediate}" - the operand
+	is contained within the instruction.
+
+	Most processors also have {indirect addressing} modes, e.g.
+	"register indirect", "memory indirect" where the specified
+	register or memory location does not contain the operand but
+	contains its address, known as the "{effective address}".  For
+	an absolute addressing mode, the effective address is
+	contained within the instruction.
+
+	Indirect addressing modes often have options for pre- or post-
+	increment or decrement, meaning that the register or memory
+	location containing the {effective address} is incremented or
+	decremented by some amount (either fixed or also specified in
+	the instruction), either before or after the instruction is
+	executed.  These are very useful for {stacks} and for
+	accessing blocks of data.  Other variations form the effective
+	address by adding together one or more registers and one or
+	more constants which may themselves be direct or indirect.
+	Such complex addressing modes are designed to support access
+	to multidimensional arrays and arrays of data structures.
+
+	The addressing mode may be "implicit" - the location of the
+	operand is obvious from the particular instruction.  This
+	would be the case for an instruction that modified a
+	particular control register in the CPU or, in a {stack} based
+	processor where operands are always on the top of the stack.
+
+	2. In {IBM} {System 370}/{XA} the addressing mode bit controls
+	the size of the {effective address} generated.  When this bit
+	is zero, the CPU is in the 24-bit addressing mode, and 24 bit
+	instruction and operand effective addresses are generated.
+	When this bit is one, the CPU is in the 31-bit addressing
+	mode, and 31-bit instruction and operand effective addresses
+	are generated.
+
+	["IBM System/370 Extended Architecture Principles of
+	Operation", Chapter 5., 'Address Generation', BiModal
+	Addressing].
+
+	(1995-03-30)
+
+address mask
+
+	<networking> (Or "subnet mask") A {bit mask} used to identify
+	which bits in an {IP address} correspond to the {network
+	address} and {subnet} portions of the address.  This mask is
+	often referred to as the subnet mask because the network
+	portion of the address can be determined by the {class}
+	inherent in an IP address.  The address mask has ones in
+	positions corresponding to the network and subnet numbers and
+	zeros in the host number positions.
+
+	(1996-03-21)
+
+address resolution
+
+	<networking> Conversion of an {Internet address} into the
+	corresponding physical address ({Ethernet address}).  This is
+	usually done using {Address Resolution Protocol}.
+
+	The {resolver} is a library routine and a set of processes
+	which converts {hostnames} into {Internet addresses}, though
+	this process in not usually referred to as {resolution}.  See
+	{DNS}.
+
+	(1996-04-09)
+
+Address Resolution Protocol
+
+	<networking, protocol> (ARP) A method for finding a {host}'s
+	{Ethernet address} from its {Internet address}.  The sender
+	broadcasts an ARP {packet} containing the {Internet address}
+	of another host and waits for it (or some other host) to send
+	back its Ethernet address.  Each host maintains a {cache} of
+	address translations to reduce delay and loading.  ARP allows
+	the Internet address to be independent of the Ethernet address
+	but it only works if all hosts support it.
+
+	ARP is defined in {RFC 826}.
+
+	The alternative for hosts that do not do ARP is {constant
+	mapping}.
+
+	See also {proxy ARP}, {reverse ARP}.
+
+	(1995-03-20)
+
+address space
+
+	<operating system, architecture> The range of addresses which
+	a processor or process can access, or at which a {device} can
+	be accessed.  The term may refer to either {physical address}
+	or {virtual address}.
+
+	The size of a processor's address space depends on the width
+	of the processor's {address bus} and address {registers}.
+
+	Each device, such as a memory {integrated circuit}, will have
+	its own local address space which starts at zero.  This will
+	be mapped to a range of addresses which starts at some base
+	address in the processor's address space.
+
+	Similarly, each {process} will have its own address space,
+	which may be all or a part of the processor's address space.
+	In a {multitasking} system this may depend on where in memory
+	the process happens to have been loaded.  For a process to be
+	able to run at any address it must consist of
+	{position-independent code}.  Alternatively, each process may
+	see the same local address space, with the {memory management
+	unit} mapping this to the process's own part of the
+	processor's address space.
+
+	(1999-11-01)
+
+Address Strobe
+
+	<storage> (AS) One of the input signals of a memory device,
+	especially {semiconductor} memory, which is asserted to tell
+	the memory device that the {address} inputs are valid.  Upon
+	receiving this signal the selected memory device starts the
+	memory access (read/write) indicated by its other inputs.
+
+	It may be driven directly by the {processor} or by a {memory
+	controller}.
+
+	(1996-10-02)
+
+ADELE
+
+	<language> A language for specification of {attribute
+	grammars}, used by the {MUG2} {compiler compiler}.
+
+	["An Overview of the Attribute Definition Language ADELE",
+	H. Ganziger in GI3, Fachesprach "Compiler-Compiler",
+	W. Henhapl ed, Munchen Mar 1982, pp.22-53].
+
+	(1995-01-23)
+
+ADES
+
+	<language> An early system on the {IBM 704}.
+
+	Version: ADES II.
+
+	[Listed in CACM 2(5):16 (May 1959)].
+
+	(1995-03-20)
+
+ad hoc
+
+	Contrived purely for the purpose in hand rather than planned
+	carefully in advance.  E.g. "We didn't know what to do about
+	the sausage rolls, so we set up an ad-hoc committee".
+
+	(1995-03-25)
+
+ad-hockery
+
+	<jargon> /ad-hok'*r-ee/ (Purdue) 1. Gratuitous assumptions
+	made inside certain programs, especially {expert systems},
+	which lead to the appearance of semi-intelligent behaviour but
+	are in fact entirely arbitrary.  For example, {fuzzy-matching}
+	of input tokens that might be typing errors against a symbol
+	table can make it look as though a program knows how to spell.
+
+	2. Special-case code to cope with some awkward input that
+	would otherwise cause a program to fail, presuming normal
+	inputs are dealt with in some cleaner and more regular way.
+	Also called "ad-hackery", "ad-hocity" (/ad-hos'*-tee/),
+	"ad-crockery".
+
+	See also {ELIZA effect}.
+
+	[{Jargon File}]
+
+	(1995-01-05)
+
+ad-hoc polymorphism
+
+	{overloading}
+
+Aditi
+
+	<database, project> The Aditi Deductive Database System.  A
+	multi-user {deductive database} system from the Machine
+	Intelligence Project at the {University of Melbourne}.  It
+	supports base {relations} defined by {facts} (relations in the
+	sense of {relational databases}) and {derived relations}
+	defined by {rules} that specify how to compute new information
+	from old information.
+
+	Both base relations and the rules defining derived relations
+	are stored on disk and are accessed as required during query
+	evaluation.  The rules defining derived relations are
+	expressed in a {Prolog}-like language, which is also used for
+	expressing queries.
+
+	Aditi supports the full structured data capability of Prolog.
+	Base relations can store arbitrarily nested terms, for example
+	arbitrary length lists, and rules can directly manipulate such
+	terms.  Base relations can be indexed with {B-trees} or
+	multi-level signature files.
+
+	Users can access the system through a {Motif}-based query and
+	database administration tool, or through a command line
+	interface.  There is also in interface that allows {NU-Prolog}
+	programs to access Aditi in a transparent manner.  Proper
+	{transaction processing} is not supported in this release.
+
+	The beta release runs on {SPARC}/{SunOS4}.1.2 and
+	{MIPS}/{Irix}4.0.
+
+	E-mail: <aditi@cs.mu.oz.au>.
+
+	(1992-12-17)
+
+adjacency
+
+	<networking> A relationship between two {network} devices,
+	e.g. {routers}, which are connected by one media segment so
+	that a packet sent by one can reach the other without going
+	through another network device.  The concept of adjacency is
+	important in the exchange of routing information.
+
+	Adjacent {SNA} {nodes} are nodes connected to a given node
+	with no intervening nodes.  In {DECnet} and {OSI}, adjacent
+	nodes share a common segment ({Ethernet}, {FDDI}, {Token
+	Ring}).
+
+	(1998-03-10)
+
+adjacent
+
+	{adjacency}
+
+ADL
+
+	1. <games> {Adventure Definition Language}.
+
+	2. <language> {Ada} Development Language.
+
+	R.A. Lees, 1989.
+
+	3. <programming> {API} Definition Language.
+
+	A project for Automatic Interface Test Generation.
+
+	(1995-11-17)
+
+AdLog
+
+	<language> A language which adds a {Prolog} layer to {Ada}.
+
+	["AdLog, An Ada Components Set to Add Logic to Ada",
+	G. Pitette, Proc Ada-Europe Intl Conf Munich, June 1988].
+
+	(1995-03-21)
+
+ADM
+
+	<language> A picture {query language}, extension of {Sequel2}.
+
+	["An Image-Oriented Database System", Y. Takao et al, in
+	Database Techniques for Pictorial Applications, A. Blaser ed,
+	pp. 527-538].
+
+	(1995-03-21)
+
+ADMD
+
+	{Administration Management Domain}
+
+admin
+
+	{system administrator}
+
+Administration Management Domain
+
+	<networking> (ADMD) An {X.400} {Message Handling System}
+	{public service carrier}.  The ADMDs in all countries
+	worldwide together provide the X.400 {backbone}.  Examples:
+	{MCImail} and {ATTmail} in the U.S., {British Telecom}
+	{Gold400mail} in the U.K.
+
+	See also {PRMD}.
+
+	[RFC 1208].
+
+	(1997-05-07)
+
+administrative distance
+
+	<networking> A rating of the trustworthiness of a {routing}
+	information source set by the router administrator.  In
+	{Cisco} {routers}, administrative distance is a number between
+	0 and 255 (the higher the value, the less trustworthy the
+	source).
+
+	(1998-03-10)
+
+Administrative Domain
+
+	<networking> (AD) A collection of {hosts} and {routers}, and
+	the interconnecting network(s), managed by a single
+	administrative authority.
+
+	(1994-11-24)
+
+admissible
+
+	<algorithm> A description of a {search algorithm} that is
+	guaranteed to find a minimal solution path before any other
+	solution paths, if a solution exists.  An example of an
+	admissible search algorithm is {A* search}.
+
+	(1999-07-19)
+
+ADO
+
+	{ActiveX Data Objects}
+
+Adobe Systems, Inc.
+
+	<company> A California {font} foundry and {software} house.
+	Adobe created the {PostScript} {page description language} and
+	wrote the {Blue Book}, {Green Book}, {Red Book} and {White
+	Book} on it.  They also developed {PDF}.  Adobe took over
+	{Frame Technology Corporation} in late 1995/early 1996.
+
+	{Home (http://adobe.com/)}.
+
+	E-mail: <postmaster@adobe.com>.
+
+	Address: Silicon Valley, California, USA.
+
+	(1996-12-13)
+
+Adobe Type Manager
+
+	<text, tool, product> (ATM) Software that produces
+	{PostScript} {outline fonts} on screen and paper.  There are
+	versions that run under {Microsoft Windows} and on the
+	{Macintosh}.  ATM can do {hinting}, {multiple master} and
+	{anti-aliasing}.
+
+	(1998-03-10)
+
+ADPCM
+
+	{Adaptive Digital Pulse Code Modulation}
+
+ADR
+
+	{Astra Digital Radio}
+
+ADS
+
+	An {expert system}.
+
+ADSL
+
+	{Asymmetric Digital Subscriber Line}
+
+ADSP
+
+	{AppleTalk Data Stream Protocol}
+
+ADSU
+
+	{ATM Data Service Unit}
+
+ADT
+
+	{abstract data type}
+
+Advanced Audio Coding
+
+	<audio> (AAC) A successor to {MP3}, allowing lower {bit rates}
+	and more stable quality.
+
+	See {MPEG-2 AAC Low Profile} and {MPEG-4 AAC Main Profile}.
+
+	(2001-12-02)
+
+Advanced Communication Function/Network Control Program
+
+	<networking> (ACF/NCP, usually called just "NCP") The primary
+	{SNA} {network control program}, one of the {ACF} products.
+	ACF/NCP resides in the {communications controller} and
+	interfaces with {ACF/VTAM} in the {host processor} to control
+	network communications.
+
+	NCP can also communicate with multiple {hosts} using {local
+	channel} or remote links ({PU} type 5 or PU type 4) thus
+	enabling cross {domain} application communication.  In a
+	multiple {mainframe} SNA environment, any terminal or
+	application can access any other application on any host using
+	cross domain logon.
+
+	See also {Emulator program}.
+
+	[Communication or Communications?]
+
+	(1999-01-29)
+
+Advanced Communications Function
+
+	<networking> (ACF) A group of {IBM} {SNA} products that
+	provide {distributed processing} and resource sharing such as
+	{VTAM} and {NCP}.
+
+	[Communication or Communications?]
+
+	(1997-05-07)
+
+Advanced Computing Environment
+
+	<body> (ACE) A consortium to agree on an {open} architecture
+	based on the {MIPS R4000} chip.  A computer architecture ARCS
+	will be defined, on which either {OS/2} or {Open Desktop} can
+	be run.
+
+	(1995-02-03)
+
+Advanced Configuration and Power Interface
+
+	<hardware, standard> (ACPI) An open industry standard
+	developed by {Intel}, {Microsoft}, and {Toshiba} for
+	configuration and {power management}.
+
+	The key element of the standard is power management with two
+	important improvements.  First, it puts the {OS} in control of
+	power management.  In the currently existing {APM} model most
+	of the power management tasks are run by the {BIOS}, with
+	limited intervention from the OS.  In ACPI, the BIOS is
+	responsible for the dirty details of communicating with
+	hardware equipment but the control is in the OS.
+
+	The other important feature is bringing power management
+	features now available in {portable computers} only to the
+	desktop as well as into servers.  Extremely low consumption
+	states, i.e., in which only memory, or not even memory is
+	powered, but from which ordinary interrupts (real time clock,
+	keyboard, modem, etc.) can quickly wake the system, are today
+	available in portables only.  The standard should make these
+	available for a wider range of systems.
+
+	For ACPI to work the operating system, the {motherboard}
+	chipset, and for some functions even the {CPU} has to be
+	designed for it.  Microsoft is heavily driving a move toward
+	ACPI, both {Windows NT 5.0} and {Windows 98} will support it.
+	It remains to be seen how much hardware manufacturers will
+	embrace the technology and whether other operating system
+	vendors will support it.
+
+	{ACPI Information Page (http://teleport.com/~acpi/)}.
+
+	(1998-03-27)
+
+Advanced Data Communications Control Protocol
+
+	<protocol> An {ANSI} {standard} {bit-oriented} {data link}
+	control {protocol}.
+
+	(1997-05-07)
+
+Advanced Encryption Standard
+
+	<cryptography, algorithm> (AES) The {NIST}'s replacement for
+	the {Data Encryption Standard} (DES).  The Rijndael
+	/rayn-dahl/ {symmetric block cipher}, designed by Joan Daemen
+	and Vincent Rijmen, was chosen by a NIST contest to be AES.
+
+	AES is Federal Information Processing Standard FIPS-197.
+
+	AES currently supports 128, 192 and 256-bit keys and
+	encryption blocks, but may be extended in multiples of 32
+	bits.
+
+	{Home (http://csrc.nist.gov/CryptoToolkit/aes/)}.
+
+	{Rijndael home page
+	(http://esat.kuleuven.ac.be/~rijmen/rijndael/)}.
+
+	(2003-07-04)
+
+Advanced Function Presentation
+
+	<printer, language> (AFP) A {page description language} from
+	{IBM} introduced in 1984 initially as Advanced Function
+	Printing.  AFP was first developed for {mainframes} and then
+	brought to {minicomputers} and {workstations}.  It is
+	implemented on the various {platforms} by {Print Services
+	Facility} (PSF) software, which generates the {native} IBM
+	printer language, {IPDS} and, depending on the version,
+	{PostScript} and LaserJet {PCL} as well.  IBM calls AFP a
+	"printer architecture" rather than a page description
+	language.
+
+Advanced Function Printing
+
+	{Advanced Function Presentation}
+
+Advanced Intelligent Tape
+
+	<storage> (AIT) A form of {magnetic tape} and drive using
+	{AME} developed by {Sony} for storing large amounts of data.
+	An AIT can store over 50 {gigabytes} and transfer data at six
+	megabytes/second (in February 1999).  AIT features high speed
+	file access, long head and media life, the {ALDC compression}
+	{algorithm}, and a {MIC} chip.
+
+	{Home (http://aittape.com/)}.
+
+	{Seagate
+	(http://seagate.com/support/tape/scsiide/sidewinder/ait_main_page.shtml)}.
+
+	(1999-04-16)
+
+Advanced Interactive eXecutive
+
+	<operating system> (AIX) {IBM}'s version of {Unix}, taken as
+	the basis for the {OSF} {standard}.
+
+	{Usenet} newsgroup: {news:comp.sys.unix.aix}.
+
+	(1994-11-24)
+
+Advanced Micro Devices, Inc.
+
+	<company> (AMD) A US manufacturer of {integrated circuits},
+	founded in 1969.  AMD was the fifth-largest IC manufacturer in
+	1995.  AMD focuses on the personal and networked computation
+	and communications market.  They produce {microprocessors},
+	{embedded processors} and related peripherals, memories,
+	{programmable logic devices}, circuits for telecommunications
+	and networking applications.
+
+	In 1995, AMD had 12000 employees in the USA and elsewhere and
+	manufacturing facilities in Austin, Texas; Aizu-Wakamatsu,
+	Japan; Bangkok, Thailand; Penang, Malaysia; and Singapore.
+
+	AMD made the {AMD 2900} series of {bit-slice} {TTL} components
+	and clones of the {Intel 80386} and {Intel 486}
+	{microprocessors}.
+
+	{AMD Home (http://amd.com/)}.
+
+	Address: Sunnyvale, CA, USA.
+
+	(1995-02-27)
+
+Advanced Network Systems Architecture
+
+	<networking> (ANSA) A "{software bus}" based on a model for
+	distributed systems developed as an {ESPRIT} project.
+
+	{Home (http://ansa.co.uk/)}.
+
+	(1996-04-01)
+
+Advanced Peer-to-Peer Networking
+
+	<networking, product> (APPN) IBM data communications support
+	that routes data in a network between two or more {APPC}
+	systems that need not be adjacent.
+
+	(1995-02-03)
+
+Advanced Power Management
+
+	<hardware> (APM) A feature of some displays, usually but not
+	always, on {laptop computers}, which turns off power to the
+	display after a preset period of inactivity to conserve
+	electrical power.  Monitors with this capability are usually
+	refered to as "green monitors", meaning environmentally
+	friendly.
+
+	Not to be confused with a {screen blanker} which is {software}
+	that causes the display to go black (by setting every {pixel}
+	to black) to prevent {burn-in}.
+
+	(1997-08-25)
+
+Advanced Programmable Interrupt Controller
+
+	<integrated circuit> (APIC) A {Programmable Interrupt
+	Controller} (PIC) that can handle {interrupts} from and for
+	multiple {CPUs}, and, usually, has more available interrupt
+	lines that a typical PIC.
+
+	(2003-03-18)
+
+Advanced Program-to-Program Communications
+
+	<networking, product> (APPC) An implementation of the {IBM}
+	{SNA}/{SDLC} {LU6.2} {protocol} that allows interconnected
+	systems to communicate and share the processing of programs.
+
+	(1995-02-03)
+
+Advanced Research Projects Agency
+
+	{Defense Advanced Research Projects Agency}
+
+Advanced Research Projects Agency Network
+
+	<networking> (ARPANET) A pioneering longhaul {wide area
+	network} funded by {DARPA} (when it was still called "ARPA"?).
+	It became operational in 1968 and served as the basis for
+	early networking research, as well as a central {backbone}
+	during the development of the {Internet}.  The ARPANET
+	consisted of individual {packet switching} computers
+	interconnected by {leased lines}.  {Protocols} used include
+	{FTP} and {telnet}.  It has now been replaced by {NSFnet}.
+
+	[1968 or 1969?]
+
+	(1994-11-17)
+
+Advanced Revelation
+
+	<database> (AREV) A {database development environment} for
+	{personal computers} available from {Revelation Software}
+	since 1982.  Originally based on the {PICK} {operating
+	system}, there are over one million users worldwide in 1996.
+
+	(1996-12-12)
+
+Advanced RISC Computing Specification
+
+	<standard, hardware> (ARC, previously ARCS) The baseline
+	hardware requirements for an {ACE}-compatible system.
+
+	(1995-01-16)
+
+Advanced RISC Machine
+
+	<processor> (ARM, Originally {Acorn} RISC Machine).  A series
+	of low-cost, power-efficient 32-bit {RISC} {microprocessors}
+	for embedded control, computing, {digital signal processing},
+	{games}, consumer {multimedia} and portable applications.  It
+	was the first commercial RISC microprocessor (or was the {MIPS
+	R2000}?) and was licensed for production by {Asahi Kasei
+	Microsystems}, {Cirrus Logic}, {GEC Plessey Semiconductors},
+	{Samsung}, {Sharp}, {Texas Instruments} and {VLSI Technology}.
+
+	The ARM has a small and highly {orthogonal instruction set},
+	as do most RISC processors.  Every instruction includes a
+	four-bit code which specifies a condition (of the {processor
+	status register}) which must be satisfied for the instruction
+	to be executed.  Unconditional execution is specified with a
+	condition "true".
+
+	Instructions are split into load and store which access memory
+	and arithmetic and logic instructions which work on
+	{registers} (two source and one destination).
+
+	The ARM has 27 registers of which 16 are accessible in any
+	particular processor mode.  R15 combines the {program counter}
+	and processor status byte, the other registers are general
+	purpose except that R14 holds the {return address} after a
+	{subroutine} call and R13 is conventionally used as a {stack
+	pointer}.  There are four processor modes: user, {interrupt}
+	(with a private copy of R13 and R14), fast interrupt (private
+	copies of R8 to R14) and {supervisor} (private copies of R13
+	and R14).  The {ALU} includes a 32-bit {barrel-shifter}
+	allowing, e.g., a single-{cycle} shift and add.
+
+	The first ARM processor, the ARM1 was a prototype which was
+	never released.  The ARM2 was originally called the Acorn RISC
+	Machine.  It was designed by {Acorn Computers Ltd.} and used
+	in the original {Archimedes}, their successor to the {BBC
+	Micro} and {BBC Master} series which were based on the
+	eight-bit {6502} {microprocessor}.  It was clocked at 8 MHz
+	giving an average performance of 4 - 4.7 {MIPS}.  Development
+	of the ARM family was then continued by a new company,
+	{Advanced RISC Machines Ltd.}
+
+	The {ARM3} added a {fully-associative} on-chip {cache} and
+	some support for {multiprocessing}.  This was followed by the
+	{ARM600} chip which was an {ARM6} processor {core} with a
+	4-kilobyte 64-way {set-associative} {cache}, an {MMU} based on
+	the MEMC2 chip, a {write buffer} (8 words?) and a
+	{coprocessor} interface.
+
+	The {ARM7} processor core uses half the power of the {ARM6}
+	and takes around half the {die} size.  In a full processor
+	design ({ARM700} chip) it should provide 50% to 100% more
+	performance.
+
+	In July 1994 {VLSI Technology, Inc.} released the {ARM710}
+	processor chip.
+
+	{Thumb} is an implementation with reduced code size
+	requirements, intended for {embedded} applications.
+
+	An {ARM800} chip is also planned.
+
+	{AT&T}, {IBM}, {Panasonic}, {Apple Coputer}, {Matsushita} and
+	{Sanyo} either rely on, or manufacture, ARM 32-bit processor
+	chips.
+
+	{Usenet} newsgroup: {news:comp.sys.arm}.
+
+	(1997-08-05)
+
+Advanced RISC Machines Ltd.
+
+	<company> (ARM) A company formed in 1990 by {Acorn Computers}
+	Ltd., {Apple Computer, Inc.} and {VLSI Technology} to market
+	and develop the {Advanced RISC Machine} {microprocessor}
+	family, originally designed by Acorn.
+
+	ARM Ltd. also designs and licenses peripheral chips and
+	supplies supporting software and hardware tools.  In April
+	1993, Nippon Investment and Finance, a Daiwa Securities
+	company, became ARM's fourth investor.  In May 1994 Samsung
+	became the sixth large company to have a licence to use the
+	ARM processor core.
+
+	The success of ARM Ltd. and the strategy to widen the
+	availability of RISC technology has resulted in its chips now
+	being used in a range of products including the {Apple
+	Newton}.  As measured by an independent authority, more ARM
+	processors were shipped than {SPARC} chips in 1993.  ARM has
+	also sold three times more chips than the {PowerPC}
+	consortium.
+
+	{Home (http://systemv.com/armltd/index.html)}.
+
+	E-mail: armltd.co.uk.
+
+	Address: Advanced RISC Machines Ltd.  Fulbourn Road, Cherry
+	Hinton, Cambridge CB1 4JN, UK.
+
+	Telephone: +44 (1223) 400 400.  Fax: +44 (1223) 400 410.
+
+	(1994-11-03)
+
+Advanced SCSI Peripheral Interface
+
+	<storage, programming> (ASPI) A set of libraries designed to
+	provide programs running under {Microsoft Windows} with a
+	consistent interface for accessing {SCSI} devices.  ASPI has
+	become a {de facto standard}.
+
+	The ASPI layer is a collection of programs ({DLLs}) that
+	together implement the ASPI interface.  Many problems are
+	caused by device manufacturers packaging incomplete sets of
+	these DLLs with their hardware, often with incorrect date
+	stamps, causing newer versions to get replaced with old.
+	ASPICHK from Adaptec will check the ASPI components installed
+	on a computer.
+
+	The latest ASPI layer as of March 1999 is 1014.
+
+	The {ATAPI} standard for {IDE} devices makes them look to the
+	system like SCSI devices and allows them to work through ASPI.
+
+	{(http://resource.simplenet.com/primer/aspi.htm)}.
+
+	(1999-03-30)
+
+Advanced Software Environment
+
+	<programming> (ASE) An {object-oriented} {application support
+	system} from {Nixdorf}.
+
+	(1995-09-12)
+
+Advanced STatistical Analysis Program
+
+	<tool, electronics> (ASTAP) A program for analysing electronic
+	circuits and other networks.
+
+	["Advanced Statistical Analysis Program (ASTAP) Program
+	Reference Manual", SH-20-1118, IBM, 1973].
+
+	(2000-01-27)
+
+Advanced Technology Attachment
+
+	<storage, hardware, standard> (ATA, AT Attachment or
+	"Integrated Drive Electronics", IDE) A {disk drive} interface
+	{standard} based on the {IBM PC} {ISA} 16-bit {bus} but also
+	used on other {personal computers}.  The ATA specification
+	deals with the power and data signal interfaces between the
+	{motherboard} and the integrated {disk controller} and drive.
+	The ATA "bus" only supports two devices - master and slave.
+
+	ATA drives may in fact use any physical interface the
+	manufacturer desires, so long as an embedded translator is
+	included with the proper ATA interface.  ATA "controllers" are
+	actually direct connections to the ISA bus.
+
+	Originally called IDE, the ATA interface was invented by
+	{Compaq} around 1986, and was developed with the help of
+	{Western Digital}, {Imprimis}, and then-upstart {Conner
+	Peripherals}.  Efforts to standardise the interface started in
+	1988; the first draft appeared in March 1989, and a finished
+	version was sent to {ANSI} group X3T10 (who named it "Advanced
+	Technology Attachment" (ATA)) for ratification in November
+	1990.
+
+	X3T10 later extended ATA to {Advanced Technology Attachment
+	Interface with Extensions} (ATA-2), followed by {ATA-3} and
+	{ATA-4}.
+
+	{X3T10 (http://symbios.com/x3t10/)}.
+
+	(1998-10-08)
+
+Advanced Technology Attachment Interface with Extensions
+
+	<storage, standard> (ATA-2, Enhanced Integrated Drive
+	Electronics, EIDE) A proposed (May 1996 or earlier?)
+	{standard} from {X3T10} (document 948D rev 3) which extends
+	the {Advanced Technology Attachment} interface while
+	maintaining compatibility with current {IBM PC} {BIOS}
+	designs.
+
+	ATA-2 provides for faster data rates, 32-bit transactions and
+	(in some drives) {DMA}.  Optional support for power saving
+	modes and removable devices is also in the standard.
+
+	ATA-2 was developed by {Western Digital} as "Enhanced
+	Integrated Drive Electronics" (EIDE) around 1994.
+	{Marketroids} call it "Fast ATA" or "Fast ATA-2".
+
+	ATA-2 was followed by {ATA-3} and {ATA-4} ("Ultra DMA").
+
+	(2000-10-07)
+
+Advanced WavEffect
+
+	<multimedia, music, hardware> (AWE) The kind of synthesis used
+	by the {EMU 8000} music synthesizer {integrated circuit} found
+	on the {SB AWE32} card.
+
+	(1996-12-15)
+
+Advantage Gen
+
+	<language, software> A {CASE} tool for {rapid application
+	development} which generates code from graphical {business
+	process models}.  Formerly called Information Engineering
+	Facility (IEF) and produced by {Texas Instruments}, it was
+	then bought by {Sterling Software, Inc.} who renamed it to
+	COOL:Gen to fit into their COOL line of products.  {Computer
+	Associates International, Inc.} then acquired {Sterling
+	Software, Inc.}, and renamed the tool "Advantage Gen".
+
+	In 2003, CA are supporting Advantage Gen and adding support
+	for {J2EE}/{EJB}, enhanced web enablement, {Web services}, and
+	{.Net}.
+
+	Current version: 6.5, as of 2003-04-14.
+
+	{(http://www3.ca.com/Solutions/Product.asp?ID=256)}.
+
+	(2003-06-23)
+
+ADVENT
+
+	<games> /ad'vent/ The prototypical computer {Adventure} game,
+	first implemented by Will Crowther for a {CDC} computer
+	(probably the 6600?) as an attempt at computer-refereed
+	fantasy gaming.
+
+	ADVENT was ported to the {PDP-10}, and expanded to the
+	350-point {Classic} puzzle-oriented version, by Don Woods of
+	the {Stanford Artificial Intelligence Laboratory} (SAIL).  The
+	game is now better known as Adventure, but the {TOPS-10}
+	{operating system} permitted only six-letter filenames.  All
+	the versions since are based on the SAIL port.
+
+	David Long of the {University of Chicago} Graduate School of
+	Business Computing Facility (which had two of the four
+	{DEC20s} on campus in the late 1970s and early 1980s) was
+	responsible for expanding the cave in a number of ways, and
+	pushing the point count up to 500, then 501 points.  Most of
+	his work was in the data files, but he made some changes to
+	the {parser} as well.
+
+	This game defined the terse, dryly humorous style now expected
+	in text adventure games, and popularised several tag lines
+	that have become fixtures of hacker-speak: "A huge green
+	fierce snake bars the way!"  "I see no X here" (for some noun
+	X).  "You are in a maze of twisty little passages, all alike."
+	"You are in a little maze of twisty passages, all different."
+	The "magic words" {xyzzy} and {plugh} also derive from this
+	game.
+
+	Crowther, by the way, participated in the exploration of the
+	Mammoth & Flint Ridge cave system; it actually *has* a
+	"Colossal Cave" and a "Bedquilt" as in the game, and the "Y2"
+	that also turns up is cavers' jargon for a map reference to a
+	secondary entrance.
+
+	See also {vadding}.
+
+	[Was the original written in Fortran?]
+
+	[{Jargon File}]
+
+	(1996-04-01)
+
+Adventure Definition Language
+
+	<language, games> (ADL) An {adventure} game language
+	{interpreter} designed by Ross Cunniff <cunniff@fc.hp.com> and
+	Tim Brengle in 1987.  ADL is semi-{object-oriented} with
+	{Lisp}-like {syntax} and is a superset of {DDL}.  It is
+	available for {Unix}, {MS-DOS}, {Amiga} and {Acorn}
+	{Archimedes}.
+
+	{(ftp://ftp.uu.net/usenet/comp.sources.games/volume2)},
+	{(ftp://ftp.wustl.edu/systems/amiga/fish/fish/f0/ff091)}.
+
+	(1995-03-20)
+
+ADVSYS
+
+	<language, games> An {adventure} game language designed by
+	David Betz in 1986.  ADVSYS is {object-oriented} and
+	{Lisp}-like.
+
+	{(ftp://ftp.uu.net/usenet/comp.sources.games/volume2)}.
+
+	(1995-03-20)
+
+AE
+
+	{Application Executive}
+
+ae
+
+	<networking> The {country code} for the United Arab Emirates.
+
+	(1999-01-27)
+
+AED
+
+	{Automated Engineering Design}
+
+AEGIS
+
+	<operating system> A {Unix} variant that was used on {Apollo}
+	{workstations} before Apollo was bought by {Hewlett Packard}.
+	AEGIS has some advantages over standard {BSD} or {System V}
+	Unix.  It includes faster file access and a richer command
+	set; there are commands to find out which {process} is running
+	on a particular node, which process is locking a particular
+	file, etc.
+
+	(1997-02-25)
+
+Aegis
+
+	<programming, tool> A {CASE} tool for project {change
+	management} written by Peter Miller, with minor contributions
+	by a few others.  Aegis is licensed using the {GNU GPL} but is
+	not a GNU project.
+
+	{Aegis Home (http://aegis.sourceforge.net/)}.
+
+	(2005-03-24)
+
+Aeolus
+
+	<language> A {concurrent} language with {atomic transactions}.
+
+	["Rationale for the Design of Aeolus", C. Wilkes et al, Proc
+	IEEE 1986 Intl Conf Comp Lang, IEEE 1986, pp.107-122].
+
+	(1995-03-27)
+
+AEP
+
+	{Application Environment Profile}
+
+aeroplane rule
+
+	<convention> "Complexity increases the possibility of failure;
+	a twin-engine aeroplane has twice as many engine problems as a
+	single-engine aeroplane."
+
+	By analogy, in both software and electronics, the implication
+	is that simplicity increases robustness and that the right way
+	to build reliable systems is to put all your eggs in one
+	basket, after making sure that you've built a really *good*
+	basket.
+
+	While simplicity is a useful design goal, and twin-engine
+	aeroplanes do have twice as many engine problems, the analogy
+	is almost entirely bogus.  Commercial passenger aircraft are
+	required to have at least two engines (on different wings or
+	nacelles) so that the aeroplane can land safely if one engine
+	fails.  As Albert Einstein said, "Everything should be made as
+	simple as possible, but not simpler".
+
+	See also {KISS Principle}.
+
+	(1999-03-22)
+
+AES
+
+	1. <programming> {Application environment specification}.
+
+	2. <security> {Advanced Encryption Standard}.
+
+AESOP
+
+	{An Evolutionary System for On-line Programming}
+
+af
+
+	<networking> The {country code} for Afghanistan.
+
+	(1999-01-27)
+
+AFAC
+
+	<language> An early system on the {IBM 704}.
+
+	[Listed in CACM 2(5):16 (May 1959)].
+
+	(1995-04-04)
+
+AFAIK
+
+	<chat> as far as I know.
+
+affine transformation
+
+	<mathematics> A {linear transformation} followed by a
+	{translation}.  Given a {matrix} M and a {vector} v,
+
+	  A(x) = Mx + v
+
+	is a typical affine transformation.
+
+	(1995-
+Free On-line Dictionary of Computing
+
+	<introduction> FOLDOC is a searchable dictionary of acronyms,
+	jargon, programming languages, tools, architecture, operating
+	systems, networking, theory, conventions, standards,
+	mathematics, telecoms, electronics, institutions, companies,
+	projects, products, history, in fact anything to do with
+	computing.
+
+	Copyright 1993 by Denis Howe
+
+	Permission is granted to copy, distribute and/or modify this
+	document under the terms of the GNU Free Documentation
+	License, Version 1.1 or any later version published by the
+	Free Software Foundation; with no Invariant Sections, Front-
+	or Back-Cover Texts.  A copy of the license is included in the
+	section entitled "{GNU Free Documentation License}".
+
+	Please refer to the dictionary as "The Free On-line Dictionary
+	of Computing, http://foldoc.org/, Editor Denis Howe" or similar.
+
+	The dictionary has been growing since 1985 and now contains
+	over 13000 definitions totalling nearly five megabytes of
+	text.  Entries are cross-referenced to each other and to
+	related resources elsewhere on the net.
+
+	Where {LaTeX} commands for certain non-{ASCII} symbols are
+	mentioned, they are described in their own entries.  "\" is
+	also used to represent the Greek lower-case lambda used in
+	{lambda-calculus}.  Cross-references to other entries look
+	{like this}.  Note that not all cross-references actually lead
+	anywhere yet, but if you find one that leads to something
+	inappropriate, please {let me know (feedback.html)}.  Dates
+	after entries indicate when that entry was last updated.  They
+	do not imply that it was up-to-date at that time.
+
+	You can search the latest version of the dictionary on the
+	{WWW} at URL http://foldoc.org/.  If you find an entry that is
+	wrong or inadequate please let me know.
+
+	See {Pronunciation} for how to interpret the pronunciation
+	given for some entries.
+
+	(2006-10-16)
