@@ -1,9 +1,4 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
  * LoadForm.java
  *
  * Created on May 18, 2010, 11:14:28 PM
