@@ -3,8 +3,8 @@ package dictionaryviewer;
 /**
  * Dictionary.java
  * 
- * @author Dang Huy Hoa
- * @email danghuyhoa@gmail.com
+ * @author xxxxx
+ * @email xxxxxx
  * @since 05 May 2010
  * @version 1.0.0
  */
