@@ -3,8 +3,8 @@ package dictionaryviewer;
 /**
  * DictEntry class:
  * 
- * @author Dang Huy Hoa
- * @email danghuyhoa@gmail.com
+ * @author xxxx
+ * @email xxxxx
  * @since 05 May 2010
  * @version 1.0.0
  */
